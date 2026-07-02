@@ -7,7 +7,7 @@ toc: false
 ::: {.project-grid}
 
 ::: {.project-card}
-[West Nile virus thesis — California mosquito surveillance](projects/wnv-thesis.qmd){.card-title}
+[West Nile virus thesis: California mosquito surveillance](projects/wnv-thesis.qmd){.card-title}
 
 A quantitative MPH thesis modeling WNV infection rate in *Culex* mosquito pools
 against environmental covariates and surveillance effort, with spatial and
@@ -18,7 +18,7 @@ results claimed yet.
 :::
 
 ::: {.project-card}
-[MESA — Mapping Epidemiology in Sparse Areas](projects/mesa.qmd){.card-title}
+[MESA: Mapping Epidemiology in Sparse Areas](projects/mesa.qmd){.card-title}
 
 A C++ desktop application for public-health mapping where data is thin:
 geocoding, Getis-Ord Gi\* and Moran's I, and Monte Carlo permutation testing,
@@ -28,7 +28,7 @@ with the statistics validated against PySAL and R.
 :::
 
 ::: {.project-card}
-[FEMA Hazus — GIS and risk-modeling software](projects/hazus.qmd){.card-title}
+[FEMA Hazus: GIS and risk-modeling software](projects/hazus.qmd){.card-title}
 
 Software in support of FEMA's Hazus natural-hazard loss-estimation program:
 GIS-driven hazard and risk workflows, spatial data engineering, database
@@ -38,7 +38,7 @@ updates, and validation. Kept high-level and sanitized.
 :::
 
 ::: {.project-card}
-[SEUHD practicum — applied public-health GIS](projects/seuhd-practicum.qmd){.card-title}
+[SEUHD practicum: applied public-health GIS](projects/seuhd-practicum.qmd){.card-title}
 
 Practicum with a local health department: respiratory-illness spatial analysis
 with space-time cubes and emerging hot-spot analysis, plus immunization-

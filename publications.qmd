@@ -2,8 +2,8 @@
 title: "Publications & research"
 ---
 
-Peer-reviewed work, preprints, and the thesis. This list is kept current; work in
-progress is marked as such.
+Peer-reviewed articles, preprints, the thesis, and earlier work. In-progress
+items are noted.
 
 ## Peer-reviewed
 
@@ -12,7 +12,7 @@ progress is marked as such.
   Contributed quantitative analysis of the relationships between pandemic spread,
   mobility patterns, and global economic disruption.
 
-<!-- Template — copy per entry:
+<!-- Template, copy per entry:
 - Author(s). **Title.** *Journal* vol:pages (year). [doi:…](https://doi.org/…)
 -->
 
@@ -61,6 +61,6 @@ progress is marked as such.
 ---
 
 ::: {.callout-note appearance="simple"}
-Full author lists, DOIs, and slide/poster links are added to each entry as they
-become available.
+Author lists, DOIs, and slide/poster links get filled in as they become
+available.
 :::

@@ -1,5 +1,5 @@
 ---
-title: "FEMA Hazus — GIS and risk-modeling software"
+title: "FEMA Hazus: GIS and risk-modeling software"
 subtitle: "Software development in support of a natural-hazard loss-estimation program"
 ---
 

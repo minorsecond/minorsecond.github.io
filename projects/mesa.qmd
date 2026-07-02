@@ -1,5 +1,5 @@
 ---
-title: "MESA — Mapping Epidemiology in Sparse Areas"
+title: "MESA: Mapping Epidemiology in Sparse Areas"
 subtitle: "A desktop tool for public-health spatial analysis where data is thin"
 ---
 

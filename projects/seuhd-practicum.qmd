@@ -1,5 +1,5 @@
 ---
-title: "Applied public-health GIS — health department practicum"
+title: "Applied public-health GIS: health department practicum"
 subtitle: "Spatial analysis and surveillance analytics for a local health department"
 ---
 

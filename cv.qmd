@@ -1,6 +1,6 @@
 ---
 title: "Curriculum vitae"
-subtitle: "Robert (Ross) Wardrup — Centennial, CO"
+subtitle: "Robert (Ross) Wardrup · Centennial, CO"
 ---
 
 ::: {.tags .project-tags}
@@ -17,12 +17,12 @@ A one-to-two-page PDF version is available here:
 [github.com/minorsecond](https://github.com/minorsecond) ·
 [linkedin.com/in/robert-wardrup](https://www.linkedin.com/in/robert-wardrup/)
 
-MPH Epidemiology candidate with a background in medical geography and over a
-decade of experience building and analyzing large health and geospatial
-datasets. Graduate research applies Bayesian spatial models to vector-borne
-disease surveillance, with an emphasis on simulation-based model validation.
-Professional work spans public-health surveillance, healthcare analytics, and
-federal geospatial hazard modeling.
+I'm an MPH Epidemiology candidate with a background in medical geography and more
+than ten years building and analyzing large health and geospatial datasets. My
+graduate research puts Bayesian spatial models to work on vector-borne disease
+surveillance, with a focus on validating them against simulated data before I
+trust them. My professional experience has been in public-health surveillance,
+healthcare analytics, and federal geospatial hazard modeling.
 
 ## Research interests
 
@@ -32,30 +32,30 @@ disparities; maternal and child health; health services research.
 
 ## Education
 
-**Master of Public Health (MPH), Epidemiology** — University of Memphis
-*In progress; Aug 2022 – present (expected 2027).*
+**Master of Public Health (MPH), Epidemiology**\
+University of Memphis · *in progress, Aug 2022 – present (expected 2027)*
+
 Coursework: Epidemiology I & II, Biostatistics I & II, Environmental
 Epidemiology, Spatial Epidemiology, Epidemiologic Methods, Survey Research
 Methods, Causal Inference, Environmental Health.
 
-**Bachelor of Science, Geography** — University of North Texas, Denton, TX
-*May 2013.*
+**Bachelor of Science, Geography**\
+University of North Texas, Denton, TX · *May 2013*
 
 ## Thesis
 
 **Bayesian spatiotemporal modeling of West Nile virus, California.**
 A pooled-prevalence, BYM2-analog hierarchical model of WNV vector positivity
 across California counties, 2006–2024, with distributed-lag climate covariates
-and queen-contiguity spatial structure. Because the surveillance data is
-restricted and gated pending IRB approval, the work is being validated first
-through a simulation-based framework that checks interval coverage across
-model specifications and data-generating scenarios.
+and queen-contiguity spatial structure. Since the surveillance data is
+restricted pending IRB approval, I'm validating the approach first on simulated
+data, checking interval coverage across model specifications and scenarios.
 [Project page](projects/wnv-thesis.qmd)
 
 ## Public-health experience
 
-**MPH Epidemiology Practicum Intern** — Southeast Utah Health Department
-*May 2026 – present. Remote / Price, UT.*
+**MPH Epidemiology Practicum Intern**\
+Southeast Utah Health Department · *May 2026 – present, Remote / Price, UT*
 
 - Analyzed 3,454 respiratory-illness records (2015–2026) with ArcGIS Pro / Python,
   Getis-Ord Gi\*, and Emerging Hot Spot Analysis to describe spatial and temporal
@@ -69,8 +69,8 @@ model specifications and data-generating scenarios.
   vaccine dose counts, and documented QA to keep it out of outreach before
   correction.
 
-**Epidemiology & Data Science Professional (Temp)** — Tri-County Health Department
-*Jan 2021 – May 2021. Remote.*
+**Epidemiology & Data Science Professional (Temp)**\
+Tri-County Health Department · *Jan – May 2021, Remote*
 
 - Built ETL workflows in FME / FME Server to integrate public-health
   surveillance datasets into centralized geospatial databases.
@@ -82,8 +82,8 @@ model specifications and data-generating scenarios.
 
 ## Professional experience
 
-**GIS Developer (Contract)** — FEMA, via Marathon TS and IBM
-*Dec 2024 – present. Remote.*
+**GIS Developer (Contract)**\
+FEMA, via Marathon TS and IBM · *Dec 2024 – present, Remote*
 
 - Led a 2,000-event validation study comparing two hazard-data source formats
   for a national disaster-risk model, using descriptive statistics and
@@ -94,8 +94,8 @@ model specifications and data-generating scenarios.
 - Maintain SQL Server databases supporting federal hazard-modeling workflows,
   including scripted QA checks for reproducible model execution.
 
-**GIS Analyst** — DaVita Kidney Care
-*May 2023 – Nov 2024. Remote.*
+**GIS Analyst**\
+DaVita Kidney Care · *May 2023 – Nov 2024, Remote*
 
 - Built Python / ArcPy workflows supporting healthcare operations and resource
   allocation across a national dialysis-provider network.
@@ -104,18 +104,18 @@ model specifications and data-generating scenarios.
 - Handled extraction, transformation, integration, and validation of large
   healthcare datasets.
 
-**Prior GIS roles.** Staff GIS Developer, Axim Geospatial (Dec 2021 – May 2023) —
-geospatial planning and mapping application development (Python, VB.NET,
-JavaScript/TypeScript) and QGIS data validation. GIS Engineer, Congruex / CHC
-Consulting (May 2021 – Dec 2021) — fiber-network infrastructure design and
-utility spatial-data analysis.
+**Prior GIS roles.** Staff GIS Developer at Axim Geospatial (Dec 2021 – May
+2023): geospatial planning and mapping application development in Python, VB.NET,
+and JavaScript/TypeScript, plus QGIS data validation. GIS Engineer at Congruex /
+CHC Consulting (May – Dec 2021): fiber-network infrastructure design and utility
+spatial-data analysis.
 
 ## Selected projects
 
-**MESA — Mapping Epidemiology in Sparse Areas.** C++ desktop application for
-public-health spatial analysis in rural/sparse settings: geocoding, Getis-Ord
-Gi\*, Moran's I, and Monte Carlo permutation testing, validated against PySAL
-and R. [Details](projects/mesa.qmd)
+**MESA (Mapping Epidemiology in Sparse Areas).** C++ desktop application for
+public-health spatial analysis in rural and sparse settings: geocoding,
+Getis-Ord Gi\*, Moran's I, and Monte Carlo permutation testing, validated against
+PySAL and R. [Details](projects/mesa.qmd)
 
 **Spatial analysis of vaccination exemptions in Colorado** *(Nov 2023).*
 Hotspot analysis and spatial interpolation (kriging, rate smoothing) of
@@ -142,6 +142,6 @@ See [Publications & research](publications.qmd).
 
 ## Professional memberships
 
-- Society for Epidemiologic Research (SER) — student member, 2025–present.
-- Council of State and Territorial Epidemiologists (CSTE) — student member,
+- Society for Epidemiologic Research (SER), student member, 2025–present.
+- Council of State and Territorial Epidemiologists (CSTE), student member,
   2025–present.
