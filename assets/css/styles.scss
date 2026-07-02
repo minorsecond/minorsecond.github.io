@@ -232,6 +232,41 @@ header#title-block-header + .tags,
   font-weight: 400;
 }
 
+/* ---- Repo list (lighter treatment than featured cards) --------------- */
+
+.repo-list { margin: 1.3rem 0 0.5rem; }
+
+.repo-item {
+  padding: 0.95rem 0.1rem;
+  border-top: 1px solid var(--rw-rule);
+}
+.repo-item:last-child { border-bottom: 1px solid var(--rw-rule); }
+
+.repo-item .repo-name {
+  display: inline-block;
+  font-weight: 640;
+  font-size: 1.0rem;
+  letter-spacing: -0.01em;
+  color: var(--rw-ink);
+  border-bottom: none;
+}
+.repo-item .repo-name:hover { color: var(--rw-accent-dk); }
+.repo-item .repo-name::after {
+  content: " \2197";           /* ↗ external */
+  color: var(--rw-faint);
+  font-weight: 400;
+  font-size: 0.85em;
+}
+
+.repo-item p { margin: 0; }
+.repo-item p:first-child { margin-bottom: 0.2rem; }
+.repo-item p:nth-child(2) {
+  color: var(--rw-muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin-bottom: 0.55rem;
+}
+
 /* ---- CV / contact strip ---------------------------------------------- */
 
 .contact-strip {
