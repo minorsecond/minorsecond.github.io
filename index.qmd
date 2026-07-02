@@ -10,9 +10,10 @@ pipelines that turn messy surveillance and environmental data into something
 analyzable, and doing the spatial-statistics and modeling work on top of it.
 :::
 
-I'm an MPH Epidemiology student at the University of Memphis, writing a
-quantitative thesis on West Nile virus mosquito surveillance in California. I
-also develop GIS and risk-modeling software in support of FEMA's Hazus program,
+My background is in geography and geospatial software. I'm now finishing an MPH
+in Epidemiology at the University of Memphis, writing a quantitative thesis on
+West Nile virus mosquito surveillance in California. I also develop GIS and
+risk-modeling software in support of FEMA's Hazus program,
 and build open tools for spatial epidemiology in low-resource settings. The
 through-line is methods: getting the spatial statistics right, treating
 surveillance effort and detection bias as part of the problem, and writing

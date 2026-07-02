@@ -32,6 +32,15 @@ progress is marked as such.
   MPH thesis, University of Memphis. In progress; expected 2027.
   [Project page](projects/wnv-thesis.qmd)
 
+## Working manuscripts
+
+- **Spatio-temporal clustering of Lyme disease in Texas, 2000–2014.**
+  Wardrup RR. Unpublished manuscript, 2015. A sole-author study across all 254
+  Texas counties using SaTScan space-time cluster detection and Kendall's rank
+  correlation to test association with deciduous-forest habitat; detected one
+  significant space-time cluster in southeastern Texas and found no significant
+  forest-habitat association. Early independent research; not peer-reviewed.
+
 ## Talks & presentations
 
 *None yet listed.*
