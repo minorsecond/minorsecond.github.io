@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Ross Wardrup"
+  description: "Spatial epidemiology, public-health GIS, and applied statistical software."
+  site-url: "https://minorsecond.github.io"
+  favicon: assets/img/favicon.png
+  reader-mode: false
+  page-navigation: true
+
+  navbar:
+    background: light
+    pinned: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "CV"
+        href: cv.qmd
+    right:
+      - icon: github
+        href: https://github.com/minorsecond
+        aria-label: GitHub
+
+  page-footer:
+    left: "© 2026 Ross Wardrup"
+    right:
+      - icon: github
+        href: https://github.com/minorsecond
+        aria-label: GitHub
+      - icon: envelope
+        href: "mailto:minorsecond@gmail.com"
+        aria-label: Email
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/css/styles.scss
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    grid:
+      body-width: 820px
+    fontsize: 1.05rem
+    linestretch: 1.6
+    highlight-style: github
+    code-copy: true
+
+execute:
+  freeze: auto

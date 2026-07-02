@@ -1,0 +1,22 @@
+# Quarto render output
+/_site/
+/.quarto/
+
+# Freeze can be committed if you want reproducible renders; ignored by default
+/_freeze/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# R / Python artifacts, if any sneak in
+.Rproj.user/
+.Rhistory
+__pycache__/
+*.pyc
+.venv/
+
+**/*.quarto_ipynb

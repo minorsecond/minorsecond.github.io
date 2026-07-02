@@ -1,0 +1,51 @@
+---
+title: "Ross Wardrup"
+subtitle: "Spatial epidemiology · public-health GIS · applied statistical software"
+page-layout: full
+toc: false
+---
+
+I work at the point where public-health data, geography, and software meet. Most
+of what I do falls into two categories: building the tools and pipelines that
+turn messy surveillance and environmental data into something you can actually
+analyze, and doing the analysis itself — spatial pattern detection, hierarchical
+and spatiotemporal models, and the validation work that keeps the conclusions
+honest.
+
+I am an MPH Epidemiology student at the University of Memphis. My thesis is a
+quantitative study of West Nile virus mosquito surveillance in California —
+how environmental conditions, surveillance effort, and space and time relate to
+where the virus shows up in mosquito pools. Alongside the coursework I write
+software for a living: I develop GIS and risk-modeling tools in support of
+FEMA's Hazus program, and I build open tools for spatial epidemiology in
+low-resource settings.
+
+The through-line is methods. I care about getting the spatial statistics right,
+about surveillance and detection bias being treated as part of the problem
+rather than ignored, and about analyses that someone else can reproduce.
+
+## What I'm working on
+
+- **A West Nile virus thesis** on California mosquito surveillance — infection
+  rate in mosquito pools as a function of environment, effort, and space-time
+  structure, using Bayesian hierarchical spatiotemporal models.
+  [Read more →](projects/wnv-thesis.qmd)
+
+- **MESA**, a C++ desktop application for public-health mapping in sparse,
+  rural areas — geocoding and spatial cluster detection with the statistics
+  validated against established libraries.
+  [Read more →](projects/mesa.qmd)
+
+- **GIS and risk-modeling software** in support of FEMA's Hazus program —
+  hazard and loss workflows, spatial data engineering, and validation.
+  [Read more →](projects/hazus.qmd)
+
+- **Applied public-health GIS** with a local health department — respiratory
+  illness hot-spot analysis and immunization-compliance reporting.
+  [Read more →](projects/seuhd-practicum.qmd)
+
+## Elsewhere
+
+- Code: [github.com/minorsecond](https://github.com/minorsecond)
+- Email: [minorsecond@gmail.com](mailto:minorsecond@gmail.com)
+- [Curriculum vitae](cv.qmd)

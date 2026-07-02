@@ -1,0 +1,154 @@
+/* Ross Wardrup — minimal academic/technical theme.
+   Restrained typography, generous line spacing, muted palette. */
+
+/*-- scss:rules --*/
+
+:root {
+  --rw-ink:        #1a1a1a;   /* body text */
+  --rw-muted:      #5a5f66;   /* secondary text */
+  --rw-accent:     #2f5d62;   /* links, restrained teal-slate */
+  --rw-accent-dk:  #234246;
+  --rw-rule:       #e6e6e6;   /* hairlines */
+  --rw-bg-soft:    #f7f8f8;   /* subtle callout / code bg */
+}
+
+/* ---- Base ------------------------------------------------------------- */
+
+body {
+  color: var(--rw-ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Headings: tighter, less shouty than the theme default */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+h1.title {
+  font-weight: 650;
+  margin-bottom: 0.15rem;
+}
+
+.subtitle, p.subtitle {
+  color: var(--rw-muted);
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+/* Section headers get a quiet hairline for structure */
+h2 {
+  margin-top: 2.4rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--rw-rule);
+}
+
+h3 {
+  margin-top: 1.8rem;
+}
+
+/* ---- Links ------------------------------------------------------------ */
+
+a {
+  color: var(--rw-accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+a:hover {
+  color: var(--rw-accent-dk);
+  border-bottom-color: var(--rw-accent-dk);
+}
+
+/* ---- Navbar ----------------------------------------------------------- */
+
+.navbar {
+  border-bottom: 1px solid var(--rw-rule);
+  box-shadow: none;
+}
+
+.navbar-brand {
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.navbar .nav-link {
+  color: var(--rw-muted) !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--rw-ink) !important;
+}
+
+/* ---- Content width & rhythm ------------------------------------------ */
+
+main {
+  padding-top: 0.5rem;
+}
+
+p, li {
+  color: var(--rw-ink);
+}
+
+/* Lists a touch roomier */
+main li {
+  margin-bottom: 0.3rem;
+}
+
+/* ---- Callouts / code -------------------------------------------------- */
+
+div.callout {
+  border-radius: 4px;
+}
+
+.callout.callout-style-simple {
+  border-left-width: 3px;
+}
+
+code {
+  background: var(--rw-bg-soft);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+pre {
+  border: 1px solid var(--rw-rule);
+  border-radius: 4px;
+}
+
+/* ---- TOC -------------------------------------------------------------- */
+
+#toc-title {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  color: var(--rw-muted);
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a.active {
+  color: var(--rw-accent);
+  border-left-color: var(--rw-accent);
+}
+
+/* ---- Footer ----------------------------------------------------------- */
+
+.nav-footer {
+  border-top: 1px solid var(--rw-rule);
+  color: var(--rw-muted);
+  font-size: 0.9rem;
+}
+
+/* ---- Horizontal rules used as section separators --------------------- */
+
+main hr {
+  border: 0;
+  border-top: 1px solid var(--rw-rule);
+  margin: 2rem 0;
+}

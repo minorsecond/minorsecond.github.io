@@ -1,0 +1,91 @@
+---
+title: "West Nile virus surveillance in California"
+subtitle: "MPH thesis — spatial and spatiotemporal modeling of mosquito-pool infection"
+---
+
+::: {.callout-note appearance="simple"}
+**Status:** in progress. The methods and pipeline are built and tested on
+simulated data; the analysis on real surveillance data is pending data-use and
+review requirements. No results are reported here yet.
+:::
+
+## Problem
+
+West Nile virus is monitored in California largely through mosquito surveillance:
+agencies set traps, collect mosquitoes, sort them into pools by species and
+location, and test those pools for the virus. The resulting data is the earliest
+signal we have for local WNV risk — but it is surveillance data, not a designed
+experiment. Traps are not placed at random, effort varies across counties and
+years, and a positive pool depends both on how much virus is circulating and on
+how hard and where anyone looked.
+
+The question I'm working on: across California, how do environmental conditions
+and surveillance effort relate to WNV infection rate in mosquito pools, once you
+account for the fact that the data has spatial and temporal structure and uneven
+detection?
+
+## Approach
+
+I frame the outcome as an infection rate in *Culex* mosquito pools — the
+probability that a mosquito carries the virus, estimated from pooled test
+results rather than treating each pool as a simple positive/negative. The
+analytic unit is the county-month, over a multi-year study period covering
+California and a buffer into neighboring states.
+
+The design takes surveillance effort and detection seriously as part of the data-
+generating process rather than a nuisance to be dropped. Effort enters the
+model; the estimand is defined up front; and spatial confounding is addressed
+directly rather than assumed away.
+
+The work moves in stages:
+
+1. **Exploratory spatial data analysis (ESDA)** — describe the spatial and
+   temporal pattern, test for clustering, and locate hot spots before fitting
+   anything.
+2. **Covariate assembly** — build a reproducible environmental data warehouse on
+   the county-month grid.
+3. **Hierarchical spatiotemporal modeling** — fit Bayesian models that share
+   information across space and time and separate signal from surveillance
+   artifact.
+
+## Methods and tools
+
+- **Outcome.** Pooled-prevalence infection rate for WNV in *Culex* vectors,
+  estimated from mosquito-pool test data with pool sizes accounted for.
+- **Structure.** County-month observations across California (plus a buffer of
+  neighboring-state counties) over a multi-year period.
+- **Environmental covariates.** Vegetation indices (NDVI/EVI), land surface
+  temperature, climate and drought measures, land cover, and irrigation, among
+  others — assembled and validated on the analytic grid.
+- **Exploratory spatial analysis.** Global and local autocorrelation
+  (Moran's I, Getis-Ord Gi\*), emerging hot-spot analysis, and space-time
+  description.
+- **Modeling.** Bayesian hierarchical spatiotemporal models — a conditional
+  autoregressive (BYM2-type) spatial structure with temporal terms and
+  distributed-lag climate effects, fit with established spatial-modeling engines.
+  A spatial-confounding adjustment ("spatial+") and with/without-spatial
+  sensitivity analyses are part of the plan.
+- **Stack.** R for the analysis and modeling; a SQL-backed ETL pipeline for the
+  data warehouse; version-controlled and reproducible throughout.
+
+## Status
+
+The pipeline and modeling harness are built and have been stress-tested on
+simulated data — feasibility checks, pathology tests, and a model-specification
+study to choose the analytic model before touching the real outcome. The
+analysis on actual surveillance data is gated on data-use and review
+requirements, so results are not reported here. The framing is deliberately
+provisional: this page describes the design, not findings.
+
+## What this demonstrates
+
+- Building a reproducible environmental-and-surveillance data pipeline from
+  heterogeneous public sources.
+- Treating surveillance effort and detection as part of the model rather than
+  ignoring them.
+- Applied Bayesian hierarchical and spatiotemporal modeling, with spatial
+  confounding handled explicitly.
+- Validating a modeling approach on simulated data before committing to it.
+
+*Links to the thesis document, methods write-ups, and any preprint will be added
+here as they become available.*

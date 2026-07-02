@@ -1,0 +1,56 @@
+---
+title: "Projects"
+---
+
+A short list of the work I spend the most time on. Each links to a longer page
+with the problem, the approach, and where it stands.
+
+---
+
+### West Nile virus thesis — California mosquito surveillance
+
+A quantitative MPH thesis on West Nile virus in California mosquito pools:
+modeling infection rate against environmental covariates and surveillance effort,
+with spatial and temporal structure handled explicitly. Bayesian hierarchical
+spatiotemporal modeling on a county-month analytic grid.
+
+*Spatial epidemiology · Bayesian modeling · surveillance data.* **In progress.**
+
+[Case study →](projects/wnv-thesis.qmd)
+
+---
+
+### MESA — Mapping Epidemiology in Sparse Areas
+
+A C++ desktop application for public-health mapping where data is thin and
+population is spread out. Geocoding, spatial clustering, and local-statistic
+hot-spot detection (Getis-Ord Gi\*, Moran's I) with Monte Carlo significance
+testing, validated against PySAL and R.
+
+*Spatial statistics · desktop software · tool-building.*
+
+[Case study →](projects/mesa.qmd)
+
+---
+
+### FEMA Hazus — GIS and risk-modeling software
+
+Software development in support of FEMA's Hazus natural-hazard loss-estimation
+program: GIS-driven hazard and risk workflows, spatial data engineering, database
+updates, and validation. C#/C++/SQL Server against ArcGIS-based data.
+
+*GIS software engineering · hazard and risk modeling.*
+
+[Case study →](projects/hazus.qmd)
+
+---
+
+### SEUHD practicum — applied public-health GIS
+
+Practicum work with a local health department: spatial analysis of respiratory
+illness using space-time cubes and emerging hot-spot analysis, plus
+immunization-compliance reporting built on EHR data and geocoded addresses.
+
+*Applied epidemiology · ArcGIS · surveillance analytics.*
+
+[Case study →](projects/seuhd-practicum.qmd)

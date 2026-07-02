@@ -1,0 +1,65 @@
+---
+title: "Applied public-health GIS — health department practicum"
+subtitle: "Spatial analysis and surveillance analytics for a local health department"
+---
+
+::: {.callout-note appearance="simple"}
+Data-sensitive details are omitted. This describes methods and deliverables at a
+level that discloses nothing about individuals or protected data.
+:::
+
+## Problem
+
+Small health departments generate a lot of data — case reports, immunization
+records, addresses — but rarely have the capacity to turn it into spatial
+analysis that can guide where to put limited resources. Two concrete needs came
+up during my MPH practicum: leadership wanted to know *where* respiratory
+illness was clustering across the jurisdiction, and the immunization program
+needed to know which patients were overdue for required doses so nurses could
+follow up.
+
+## Approach
+
+Take existing operational data, clean and structure it into something
+analyzable, run appropriate spatial or record-level analysis, and hand back a
+deliverable the staff can re-run and act on — a notebook, a map, or a report —
+along with a plain-language note on what it does and doesn't show.
+
+## Methods and tools
+
+**Respiratory illness spatial analysis**
+
+- QA and structuring of a case export into an analyzable dataset.
+- A reusable, time-enabled hex-binned count workflow so the analysis can be
+  re-run by changing a single input.
+- Space-time cube construction and **emerging hot-spot analysis** to distinguish
+  persistent or intensifying trends from one-off spikes.
+- Getis-Ord Gi\* hot- and cold-spot analysis by time period.
+- A standalone HTML web map and a plain-language method note for non-technical
+  staff.
+- Built with ArcGIS Pro and `arcpy`.
+
+**Immunization-compliance reporting**
+
+- A specification mapping required vaccines to dose groups and age-tiered
+  requirements, including the exception rules.
+- Calculated fields for per-group dose counts, missing doses, and school-entry
+  compliance status, built on EHR-exported data.
+- A missed-dose patient list for outreach, and groundwork for mapping
+  vaccine-uptake patterns from geocoded addresses.
+- QA and logic-verification steps documented alongside the build.
+
+## Status
+
+The respiratory-illness analysis was completed and handed off, and was used
+operationally to help plan outreach. The immunization-compliance work was in
+progress during the practicum period.
+
+## What this demonstrates
+
+- Turning messy operational public-health data into reproducible analysis.
+- Correctly applying space-time and local-cluster methods — and being careful
+  about the difference between a raw count spike and a statistical trend.
+- Building deliverables that non-technical staff can run and use, with honest
+  method notes.
+- Handling sensitive data responsibly.

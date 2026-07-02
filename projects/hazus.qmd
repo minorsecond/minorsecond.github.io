@@ -1,0 +1,51 @@
+---
+title: "FEMA Hazus — GIS and risk-modeling software"
+subtitle: "Software development in support of a natural-hazard loss-estimation program"
+---
+
+::: {.callout-note appearance="simple"}
+This page is intentionally high-level. It describes the kind of work and the
+engineering involved, not specifics of any internal system, data, or
+deliverable.
+:::
+
+## Problem
+
+FEMA's Hazus program estimates potential losses from natural hazards —
+earthquakes, floods, hurricanes, and related perils — by combining hazard data
+with inventories of buildings, infrastructure, and population. Work like this
+depends on a lot of moving parts staying correct together: geospatial data,
+model logic, and the databases underneath them all have to agree, and a change
+in one place can quietly shift results downstream. The engineering problem is
+keeping a risk model accurate, maintainable, and trustworthy as the data and
+methods evolve.
+
+## Approach
+
+I contribute to the software and data side of this work: implementing and
+maintaining GIS-driven hazard and risk workflows, keeping the underlying
+databases current and consistent, and validating that changes produce correct,
+explainable results rather than merely running without error.
+
+## Methods and tools
+
+- **GIS software development.** Geospatial workflows built around ArcGIS-based
+  data and tooling.
+- **Hazard and risk modeling support.** Implementing and maintaining the logic
+  that turns hazard and inventory data into loss estimates.
+- **Data engineering.** Database updates and maintenance in SQL Server, keeping
+  spatial and tabular data consistent.
+- **Validation.** Checking model and data changes for correctness before they
+  ship — the part that matters most when people make decisions on the output.
+- **Stack.** C#, C++, SQL Server, and ArcGIS-related geospatial tooling.
+
+## Status
+
+Ongoing professional work.
+
+## What this demonstrates
+
+- Production GIS software engineering against a real, widely used risk model.
+- Working across application code, spatial data, and databases at once.
+- Treating validation and correctness as first-class in a modeling context where
+  the results carry real weight.

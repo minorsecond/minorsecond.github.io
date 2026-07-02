@@ -1,0 +1,84 @@
+---
+title: "Curriculum vitae"
+---
+
+::: {.callout-tip appearance="simple"}
+A PDF version is available here: [Download CV (PDF)](assets/cv/ross-wardrup-cv.pdf).
+Drop the file at `assets/cv/ross-wardrup-cv.pdf` to enable the link.
+:::
+
+The summary below is kept current. Dates and institution details in placeholders
+should be confirmed before this is treated as final.
+
+## Ross Wardrup
+
+Spatial epidemiology · public-health GIS · applied statistical software
+
+[minorsecond@gmail.com](mailto:minorsecond@gmail.com) ·
+[github.com/minorsecond](https://github.com/minorsecond)
+
+---
+
+## Education
+
+**MPH, Epidemiology** — University of Memphis
+*In progress; expected 2027.* Quantitative thesis on West Nile virus mosquito
+surveillance in California (Bayesian hierarchical spatiotemporal modeling).
+
+**[Prior degree, field]** — [Institution], [year]
+<!-- Fill in undergraduate / other degrees. -->
+
+---
+
+## Experience
+
+**GIS / Software Developer — FEMA Hazus program support**
+*[Employer], [start]–present*
+Develop and maintain GIS-driven hazard and risk-modeling software for FEMA's
+Hazus natural-hazard loss-estimation program. Work spans application code,
+spatial data engineering, database maintenance, and validation. Stack: C#, C++,
+SQL Server, ArcGIS-based tooling.
+
+**MPH Epidemiology Practicum — Southeast Utah Health Department**
+*2026*
+Spatial analysis of respiratory illness (space-time cubes, emerging hot-spot
+analysis, Getis-Ord Gi\*) and immunization-compliance reporting from EHR data.
+Delivered reusable ArcGIS/`arcpy` workflows and non-technical method notes.
+
+<!-- Add earlier roles as needed. -->
+
+---
+
+## Selected projects
+
+**MESA — Mapping Epidemiology in Sparse Areas.** C++ desktop application for
+public-health spatial analysis in rural/sparse settings: geocoding, Getis-Ord
+Gi\*, Moran's I, and Monte Carlo permutation testing, validated against PySAL and
+R. [Details](projects/mesa.qmd)
+
+**WNV thesis pipeline.** Reproducible ETL and Bayesian spatiotemporal modeling
+harness for California WNV surveillance data on a county-month grid.
+[Details](projects/wnv-thesis.qmd)
+
+---
+
+## Skills
+
+**Languages.** C++, C#, R, Python, SQL
+**Spatial / statistical.** Bayesian hierarchical and spatiotemporal modeling
+(CAR/BYM2), exploratory spatial data analysis, local spatial statistics
+(Gi\*, Moran's I), permutation inference; PySAL, R spatial stack (INLA/mgcv,
+sf), ArcGIS Pro / `arcpy`
+**Data / infrastructure.** SQL Server, reproducible pipelines, version control,
+reproducible R/Python environments
+
+---
+
+## Publications & presentations
+
+See [Publications & research](publications.qmd).
+
+---
+
+*Last updated: 2026. Placeholder fields marked with brackets are pending
+confirmation.*

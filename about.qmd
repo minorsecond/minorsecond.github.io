@@ -1,0 +1,54 @@
+---
+title: "About"
+---
+
+I'm a GIS and software developer moving into spatial epidemiology. My background
+is in building geospatial software; my current focus is applying that to
+public-health problems — surveillance data, environmental exposure, and the
+spatial and temporal structure that ordinary regression tends to ignore.
+
+## Now
+
+I'm finishing an MPH in Epidemiology at the University of Memphis. My thesis is
+quantitative: a study of West Nile virus mosquito surveillance across California,
+looking at how environmental covariates, surveillance effort, and space-time
+patterns relate to infection rates in mosquito pools. The modeling side leans on
+Bayesian hierarchical and spatiotemporal methods.
+
+Professionally, I develop GIS and risk-modeling software in support of FEMA's
+Hazus natural-hazard loss-estimation program. Day to day that means C#, C++, and
+SQL Server work against ArcGIS-based data and modeling workflows — database
+updates, hazard and loss logic, and the validation that goes with changing a
+model people rely on.
+
+## How I work
+
+A few things I keep coming back to:
+
+- **Treat surveillance as data with a process behind it.** Where and how hard you
+  look shapes what you find. Detection and effort belong in the model, not in a
+  footnote.
+- **Validate against something.** New spatial code gets checked against
+  established implementations (PySAL, R packages, published results) before I
+  trust its output.
+- **Make it reproducible.** Pipelines over one-off scripts; version control;
+  environments that someone else can rebuild.
+- **Say what the analysis can and can't support.** I'd rather state a limitation
+  plainly than round a result up.
+
+## Background and interests
+
+My work sits across spatial epidemiology, environmental health, public-health
+GIS, and applied statistics. I'm particularly interested in vector-borne disease
+surveillance, spatial cluster detection, and the methods problems that come up
+when surveillance data is sparse, uneven, or collected for something other than
+research.
+
+Outside the health work, I like building desktop and geospatial tools that are
+fast and that people can actually run on their own machines.
+
+## Contact
+
+- Email: [minorsecond@gmail.com](mailto:minorsecond@gmail.com)
+- GitHub: [github.com/minorsecond](https://github.com/minorsecond)
+- [Curriculum vitae](cv.qmd)
