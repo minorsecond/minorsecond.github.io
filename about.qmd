@@ -2,13 +2,14 @@
 title: "About"
 ---
 
-I'm a GIS developer and public-health data analyst, and lately more of an
-epidemiologist. My degree is in geography, and I've spent a bit over a decade
-building and analyzing large health and geospatial datasets across public-health
-surveillance, healthcare, and federal hazard modeling. Now I'm putting that
-toward epidemiology, mostly surveillance and environmental data and the spatial
-and temporal structure that ordinary regression tends to miss. I'm based in
-Centennial, Colorado.
+I work in spatial and computational epidemiology, focused on infectious and
+vector-borne disease surveillance: the environmental drivers behind it, the
+spatial and temporal structure in the data, and the methods needed to model it
+honestly when that data is observational and unevenly collected. I came to this
+from medical geography and more than a decade of scientific and geospatial
+software work, which is why I build my own analytic pipelines and models instead
+of handing the quantitative work off to someone else. I'm based in Centennial,
+Colorado.
 
 ## Now
 

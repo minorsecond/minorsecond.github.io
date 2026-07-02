@@ -12,12 +12,14 @@ subtitle: "Robert (Ross) Wardrup · Centennial, CO"
 [linkedin.com/in/robert-wardrup](https://www.linkedin.com/in/robert-wardrup/) ·
 [ORCID 0009-0005-8235-6047](https://orcid.org/0009-0005-8235-6047)
 
-I'm an MPH Epidemiology candidate with a background in medical geography and more
-than ten years building and analyzing large health and geospatial datasets. My
-graduate research puts Bayesian spatial models to work on vector-borne disease
-surveillance, with a focus on validating them against simulated data before I
-trust them. My professional experience has been in public-health surveillance,
-healthcare analytics, and federal geospatial hazard modeling.
+I'm a researcher in spatial and computational epidemiology and an MPH
+Epidemiology candidate, with a background in medical geography and more than a
+decade of quantitative and geospatial work. My research applies Bayesian spatial
+models and cluster-detection methods to infectious and vector-borne disease
+surveillance, with an emphasis on validating those models before I trust them.
+That work is backed by hands-on experience across public-health surveillance,
+healthcare analytics, and federal hazard modeling, so I build the pipelines and
+models myself.
 
 ## Research interests
 

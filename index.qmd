@@ -5,20 +5,20 @@ toc: false
 ---
 
 ::: {.lede}
-I build the data pipelines and statistical models behind public-health
-research. Most of what I do involves surveillance and environmental data that's
-messy, uneven, and collected for reasons other than analysis, along with the
-spatial and temporal methods needed to make sense of it.
+I'm a researcher in spatial and computational epidemiology. I study how
+infectious and vector-borne disease moves through populations and landscapes,
+and I build the data pipelines and models to do it, from raw surveillance and
+environmental data through to spatial and spatiotemporal inference.
 :::
 
-My background is in geography and geospatial software, and I'm now finishing an
-MPH in Epidemiology at the University of Memphis. My thesis is a quantitative
-study of West Nile virus mosquito surveillance in California. I also work as a
-GIS and risk-modeling developer on FEMA's Hazus program, and I write
-open-source tools for spatial epidemiology in low-resource settings. What I care
-about most is method: whether the spatial statistics are done right, whether the
-analysis accounts for how the data was actually collected, and whether someone
-else could reproduce it.
+I came to epidemiology from medical geography and a decade of scientific
+software work. I'm now finishing an MPH in Epidemiology at the University of
+Memphis, where my thesis studies West Nile virus mosquito surveillance across
+California. I also develop GIS and risk-modeling software for FEMA's Hazus
+program, and I write open-source tools for spatial epidemiology in low-resource
+settings. What I care about most is method: whether the spatial statistics are
+done right, whether the analysis accounts for how the data was actually
+collected, and whether someone else could reproduce it.
 
 ## Selected work
 
