@@ -1,0 +1,81 @@
+---
+title: "The impact of COVID-19 on globalization"
+subtitle: "Peer-reviewed study (One Health, 2020): a multi-criteria country-vulnerability index for the early pandemic"
+description: "A peer-reviewed One Health study measuring COVID-19's effect on global mobility, trade, and economies, and ranking country vulnerability with a TOPSIS multi-criteria index."
+---
+
+::: {.tags .project-tags}
+[Global health]{.tag} [Infectious disease]{.tag} [Multi-criteria analysis]{.tag} [TOPSIS]{.tag} [Co-authored]{.tag}
+:::
+
+::: {.callout-note appearance="simple"}
+**Peer-reviewed.** Shrestha N, …, **Wardrup R**, …, Haque U. *The impact of
+COVID-19 on globalization.* *One Health* 11:100180 (2020).
+[doi:10.1016/j.onehlt.2020.100180](https://doi.org/10.1016/j.onehlt.2020.100180).
+Co-authored while I was in the Department of Biostatistics and Epidemiology at
+the University of North Texas Health Science Center.
+:::
+
+## Problem
+
+In early 2020, COVID-19 was moving through exactly the networks that define
+globalization: air routes, shipping lanes, cruise itineraries, and integrated
+supply chains. The same interconnection that drives economic growth was
+accelerating the spread, and the containment response (travel bans, lockdowns,
+event cancellations) was in turn hitting the global economy hard. The paper set
+out to measure both directions of that relationship, and to ask which countries
+were most vulnerable in the early pandemic.
+
+## Approach
+
+We assembled evidence across three dimensions and compared pre-pandemic
+baselines with early-pandemic conditions:
+
+- **Mobility.** Passenger and trade flow through major airlines, seaports, and
+  cruise lines.
+- **Economy.** Trade volumes, workforce and unemployment, stock values, and
+  event cancellations.
+- **Healthcare capacity.** Health-system preparedness and response across
+  countries.
+
+Then, rather than ranking countries by eye, we built a formal vulnerability
+index.
+
+## Methods
+
+- **Data sources.** Airline and cruise annual reports (2018–2019), the World
+  Shipping Council, WHO situation reports, the Johns Hopkins dashboard, the
+  Global Health Security Index, World Bank open data, and Index Mundi.
+- **Vulnerability index.** A country-level index built with **TOPSIS** (Technique
+  for Order of Preference by Similarity to Ideal Solution), a multi-criteria
+  decision method that scores each country by how close it sits to the
+  best- and worst-case profiles across several weighted criteria.
+- **Criterion weights.** Derived from a generalized linear model, over criteria
+  including population density, days since the first reported case, the Global
+  Health Index, diabetic prevalence, active and total cases, and testing volume.
+
+## Findings
+
+- Steep contractions in mobility: global airline passengers roughly halved, and
+  major seaports and cruise lines saw sharp reductions, with near-universal
+  travel restrictions.
+- Large economic and workforce effects, including U.S. unemployment rising to
+  14.7% in April 2020 and multi-billion-dollar losses from event cancellations
+  and supply-chain disruption.
+- A country-vulnerability ranking that put Singapore, Hong Kong, Uruguay,
+  Bahrain, Maldives, Malta, Nepal, India, China, and Bangladesh among the most
+  vulnerable, giving policymakers a comparable basis for prioritizing control
+  measures.
+
+## My contribution
+
+I was a co-author from the UNTHSC biostatistics and epidemiology group and
+contributed to the quantitative analysis behind the vulnerability assessment.
+
+## What this demonstrates
+
+- Applying a formal multi-criteria decision method with model-derived weights to
+  a public-health ranking problem.
+- Synthesizing heterogeneous global data (mobility, economic, and health-system
+  sources) into a single comparable index.
+- Peer-reviewed collaborative research in a large, international author group.

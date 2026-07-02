@@ -48,6 +48,25 @@ compliance reporting from EHR data and geocoded addresses.
 [Applied epidemiology]{.tag} [ArcGIS]{.tag} [Surveillance data]{.tag} [Public health]{.tag}
 :::
 
+::: {.project-card}
+[COVID-19 mortality: U.S. spatial patterns](projects/covid-mortality.qmd){.card-title}
+
+A sole-authored spatial analysis of COVID-19 mortality across 3,000+ U.S.
+counties: SaTScan cluster detection and spatial lag/error regression on
+socioeconomic determinants. Preprint.
+
+[Spatial epidemiology]{.tag} [Cluster detection]{.tag} [Health disparities]{.tag}
+:::
+
+::: {.project-card}
+[COVID-19 and globalization](projects/covid-globalization.qmd){.card-title}
+
+A peer-reviewed *One Health* study of the pandemic's effect on global mobility,
+trade, and economies, with a TOPSIS country-vulnerability index. Co-authored.
+
+[Global health]{.tag} [Multi-criteria analysis]{.tag} [Co-authored]{.tag}
+:::
+
 :::
 
 ## Code & open source

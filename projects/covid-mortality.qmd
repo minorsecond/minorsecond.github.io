@@ -1,0 +1,72 @@
+---
+title: "Spatial patterns of COVID-19 mortality in U.S. counties"
+subtitle: "Sole-authored spatial-epidemiology study: cluster detection and spatial regression on socioeconomic determinants"
+description: "A sole-authored spatial analysis of COVID-19 mortality across 3,000+ U.S. counties using SaTScan cluster detection and spatial lag/error regression on socioeconomic determinants."
+---
+
+::: {.tags .project-tags}
+[Spatial epidemiology]{.tag} [Cluster detection]{.tag} [Spatial regression]{.tag} [Health disparities]{.tag} [R]{.tag}
+:::
+
+::: {.callout-note appearance="simple"}
+**Preprint**, sole-authored. Wardrup RR, medRxiv (2024).
+[doi:10.1101/2024.10.30.24316443](https://www.medrxiv.org/content/10.1101/2024.10.30.24316443v1).
+Not yet peer-reviewed.
+:::
+
+## Problem
+
+COVID-19 mortality was not spread evenly across the United States, and the
+county-level differences didn't look random: neighboring counties tended to
+resemble each other, and the burden lined up in places with structural
+disadvantage. Two questions follow from that. Where does county-level mortality
+actually cluster? And once you account for the fact that counties near each
+other aren't independent, which socioeconomic factors are associated with the
+pattern?
+
+That second question is where ordinary regression gets you into trouble.
+County-level data has strong spatial autocorrelation, and ignoring it biases
+both the coefficients and their standard errors. So the analysis has to be built
+to respect the spatial structure from the start.
+
+## Data and approach
+
+The unit of analysis is the U.S. county, over 3,000 of them. County-level
+COVID-19 mortality is the outcome; the covariates are socioeconomic, including
+racial composition, income inequality, and uninsured rates. The approach runs in
+two stages: first locate *where* mortality clusters, then model the socioeconomic
+associations with regression that accounts for the spatial dependence.
+
+## Methods
+
+- **Cluster detection.** SaTScan to identify counties with statistically
+  significant mortality trends and locate the clusters geographically.
+- **Spatial regression.** Spatial lag and spatial error models to estimate the
+  socioeconomic associations while accounting for spatial autocorrelation, with
+  a non-spatial (OLS) model as the baseline for comparison.
+- **Diagnostics.** Checks for multicollinearity among the socioeconomic
+  covariates and for residual spatial autocorrelation, with model fit compared
+  across the lag, error, and OLS specifications.
+
+## Findings
+
+- Mortality clusters are real and spatially structured, with regions in the
+  northwestern and eastern/northeastern U.S. showing a mix of increasing and
+  decreasing trends rather than a single national gradient.
+- The **spatial lag model fit best**, which is the methodological headline:
+  spatial dependence carries real information, and a model that ignores it
+  misrepresents the associations.
+- The socioeconomic covariates were associated with the mortality-trend outcome
+  in the spatial models. Because the design is ecological and the outcome is a
+  county-level trend, the paper frames those associations as descriptive rather
+  than causal.
+
+## What this demonstrates
+
+- A complete spatial-epidemiology workflow on national data, from cluster
+  detection through spatial regression, carried end to end by one person.
+- Handling spatial autocorrelation and multicollinearity as first-class parts of
+  the design rather than afterthoughts.
+- Framing a health-disparities question spatially, and being explicit about what
+  an ecological design can and can't support.
+- Taking a study from question to written manuscript independently.

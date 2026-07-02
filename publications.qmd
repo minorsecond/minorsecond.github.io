@@ -17,7 +17,7 @@ Google Scholar: [profile](https://scholar.google.com/citations?user=NAcxI4IAAAAJ
   *One Health* 11:100180 (2020).
   [doi:10.1016/j.onehlt.2020.100180](https://doi.org/10.1016/j.onehlt.2020.100180).
   Contributed quantitative analysis of pandemic spread, mobility, and economic
-  disruption.
+  disruption. [Full write-up →](projects/covid-globalization.qmd)
 
 ## Preprints
 
@@ -30,7 +30,7 @@ Google Scholar: [profile](https://scholar.google.com/citations?user=NAcxI4IAAAAJ
   spatial error regression to test socioeconomic determinants (race, income
   inequality, uninsured rate) while accounting for spatial autocorrelation and
   multicollinearity. The spatial lag model fit best, pointing to strong spatial
-  dependence in the mortality patterns.
+  dependence in the mortality patterns. [Full write-up →](projects/covid-mortality.qmd)
 
 ## Thesis
 
