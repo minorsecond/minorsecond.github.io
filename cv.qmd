@@ -9,9 +9,9 @@ description: "Curriculum vitae for Ross Wardrup — spatial and computational ep
 :::
 
 [ross@rwardrup.com](mailto:ross@rwardrup.com) ·
-[github.com/minorsecond](https://github.com/minorsecond) ·
-[linkedin.com/in/robert-wardrup](https://www.linkedin.com/in/robert-wardrup/) ·
-[ORCID 0009-0005-8235-6047](https://orcid.org/0009-0005-8235-6047) ·
+[GitHub](https://github.com/minorsecond) ·
+[LinkedIn](https://www.linkedin.com/in/robert-wardrup/) ·
+[ORCID](https://orcid.org/0009-0005-8235-6047) ·
 [Google Scholar](https://scholar.google.com/citations?user=NAcxI4IAAAAJ)
 
 **[Download CV (PDF)](assets/cv/ross-wardrup-cv.pdf)**
