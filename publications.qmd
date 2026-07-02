@@ -13,13 +13,11 @@ items are noted.
 ::: {.pub-list}
 
 ::: {.pub}
-[The impact of COVID-19 on globalization]{.pub-title}
+[[The impact of COVID-19 on globalization](https://doi.org/10.1016/j.onehlt.2020.100180)]{.pub-title}
 
 [Shrestha N, Shad MY, Ulvi O, Khan MH, Karamehic-Muratovic A, Nguyen U-SDT, Baghbanzadeh M, **Wardrup R**, Aghamohammadi N, Cervantes D, Nahiduzzaman KM, Zaki RA, Haque U]{.pub-authors}
 
 [*One Health* 11:100180 · 2020]{.pub-venue}
-
-[[DOI](https://doi.org/10.1016/j.onehlt.2020.100180)]{.pub-links}
 :::
 
 :::
@@ -29,7 +27,7 @@ items are noted.
 ::: {.pub-list}
 
 ::: {.pub}
-[Spatial patterns of COVID-19 mortality: examining socioeconomic determinants in U.S. counties using cluster analysis]{.pub-title}
+[[Spatial patterns of COVID-19 mortality: examining socioeconomic determinants in U.S. counties using cluster analysis](projects/covid-mortality.qmd)]{.pub-title}
 
 [Wardrup RR · sole-authored]{.pub-authors}
 
@@ -37,7 +35,7 @@ items are noted.
 
 [Spatial-epidemiology study across 3,000+ U.S. counties: SaTScan cluster detection to locate significant mortality trends, and spatial lag and error regression on socioeconomic determinants (race, income inequality, uninsured rate), accounting for spatial autocorrelation and multicollinearity. The spatial lag model fit best.]{.pub-desc}
 
-[[DOI](https://www.medrxiv.org/content/10.1101/2024.10.30.24316443v1) [Full write-up →](projects/covid-mortality.qmd)]{.pub-links}
+[[DOI](https://www.medrxiv.org/content/10.1101/2024.10.30.24316443v1)]{.pub-links}
 :::
 
 :::
@@ -47,13 +45,11 @@ items are noted.
 ::: {.pub-list}
 
 ::: {.pub}
-[Bayesian spatiotemporal modeling of West Nile virus in California: environmental drivers, surveillance effort, and mosquito-pool infection]{.pub-title}
+[[Bayesian spatiotemporal modeling of West Nile virus in California: environmental drivers, surveillance effort, and mosquito-pool infection](projects/wnv-thesis.qmd)]{.pub-title}
 
 [MPH thesis · University of Memphis]{.pub-venue}
 
 [In progress; expected 2027.]{.pub-desc}
-
-[[Project page →](projects/wnv-thesis.qmd)]{.pub-links}
 :::
 
 :::

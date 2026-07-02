@@ -187,6 +187,17 @@ main a:hover {
   line-height: 1.35;
   color: var(--rw-ink);
 }
+.pub-title a {
+  color: inherit;
+  border-bottom: none;
+  text-decoration: none;
+}
+.pub-title a:hover {
+  color: var(--rw-accent-dk);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
 .pub-authors {
   display: block;
   font-size: 0.9rem;
