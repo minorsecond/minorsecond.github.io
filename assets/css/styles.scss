@@ -161,6 +161,73 @@ main a:hover {
   margin-top: 0.45rem;
   line-height: 1.45;
 }
+.fig.fig-sm { max-width: 470px; }
+
+/* ---- Publications list ----------------------------------------------- */
+
+.pub-meta {
+  display: block;
+  font-family: $font-family-monospace;
+  font-size: 0.8rem;
+  color: var(--rw-muted);
+  margin: 0.1rem 0 0.4rem;
+}
+.pub-meta a { border-bottom-color: rgba(47, 93, 98, 0.28); }
+
+.pub-list { margin: 1.1rem 0 0.6rem; }
+
+.pub { margin: 0 0 1.7rem; }
+.pub p { margin: 0; }
+
+.pub-title {
+  display: block;
+  font-weight: 650;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  color: var(--rw-ink);
+}
+.pub-authors {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--rw-muted);
+  margin-top: 0.3rem;
+  line-height: 1.5;
+}
+.pub-venue {
+  display: block;
+  font-family: $font-family-monospace;
+  font-size: 0.76rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--rw-faint);
+  margin-top: 0.3rem;
+}
+.pub-desc {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--rw-muted);
+  margin-top: 0.55rem;
+  line-height: 1.55;
+}
+.pub-links { display: block; margin-top: 0.7rem; }
+.pub-links a {
+  display: inline-block;
+  font-family: $font-family-monospace;
+  font-size: 0.73rem;
+  letter-spacing: 0.01em;
+  color: var(--rw-accent);
+  background: var(--rw-bg-soft);
+  border: 1px solid var(--rw-rule);
+  border-radius: 4px;
+  padding: 0.16rem 0.55rem;
+  margin: 0 0.35rem 0.3rem 0;
+}
+.pub-links a:hover {
+  border-color: #cdd3d2;
+  color: var(--rw-accent-dk);
+  background: #fff;
+}
 
 /* ---- Headshot (About) ------------------------------------------------ */
 
