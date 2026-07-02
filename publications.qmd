@@ -32,7 +32,7 @@ progress is marked as such.
   MPH thesis, University of Memphis. In progress; expected 2027.
   [Project page](projects/wnv-thesis.qmd)
 
-## Working manuscripts
+## Unpublished manuscripts
 
 - **Spatio-temporal clustering of Lyme disease in Texas, 2000–2014.**
   Wardrup RR. Unpublished manuscript, 2015. A sole-author study across all 254
