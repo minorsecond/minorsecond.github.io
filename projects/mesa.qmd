@@ -9,52 +9,50 @@ subtitle: "A desktop tool for public-health spatial analysis where data is thin"
 
 ## Problem
 
-Most spatial-epidemiology tooling assumes you have a lot of data and a GIS
-analyst to drive it. Rural and frontier health jurisdictions often have neither:
-few cases, large and sparsely populated areas, and staff who need an answer
-without writing code. Standard hot-spot methods can behave badly under those
-conditions — small counts, irregular geography — and the good implementations
-live in libraries that assume a Python or R workflow.
+Most spatial-epidemiology tooling assumes you have plenty of data and a GIS
+analyst to drive it. Rural and frontier health jurisdictions usually have
+neither. They have few cases, large and sparsely populated areas, and staff who
+need an answer without writing code. Standard hot-spot methods can behave badly
+with small counts and irregular geography, and the good implementations live in
+libraries that assume a Python or R workflow.
 
-MESA is an attempt to put credible spatial-cluster analysis in front of people
-who work in sparse-area public health, as a desktop application they can run
-themselves.
+MESA puts credible spatial-cluster analysis in front of people doing sparse-area
+public health, as a desktop application they can run themselves.
 
 ## Approach
 
-Build a self-contained C++ desktop app that takes addresses or points, geocodes
-them, and runs local spatial-statistics to find clusters — with the statistics
-implemented carefully and checked against reference libraries, so the output is
-trustworthy rather than just plausible-looking. The emphasis is on being correct
-and runnable offline, not on being a general-purpose GIS.
+It's a self-contained C++ desktop app. It takes addresses or points, geocodes
+them, and runs local spatial statistics to find clusters. The statistics are
+implemented carefully and checked against reference libraries, so the results
+hold up instead of just looking plausible. The goal is to be correct and to run
+offline, not to be a general-purpose GIS.
 
 ## Methods and tools
 
 - **Geocoding.** Turn address or place data into coordinates for analysis.
-- **Spatial cluster detection.** Local indicators of spatial association —
-  Getis-Ord Gi\* for hot- and cold-spot detection and Moran's I for spatial
+- **Spatial cluster detection.** Local indicators of spatial association:
+  Getis-Ord Gi\* for hot- and cold-spot detection, Moran's I for spatial
   autocorrelation.
 - **Significance testing.** Monte Carlo / permutation testing for the local
   statistics, so significance reflects the data rather than an asymptotic
   assumption that may not hold at small counts.
-- **Validation.** Statistical output is validated against established
-  implementations — PySAL and R spatial packages — so results line up with
-  known-good tools before the app is trusted.
+- **Validation.** Output is checked against established implementations (PySAL
+  and R spatial packages) so results line up with known-good tools before I
+  trust the app.
 - **Stack.** C++ desktop application, built to run locally without a server or
   cloud dependency.
 
 ## Status
 
-Active personal project. The core spatial statistics and validation are the
-part I care most about getting right; the application around them is the
+Active personal project. The core spatial statistics and their validation are
+the part I care most about getting right; the application around them is the
 delivery mechanism.
 
 ## What this demonstrates
 
 - Implementing spatial statistics (Gi\*, Moran's I, permutation inference) from
   the ground up and validating them against reference libraries.
-- Building performant, self-contained desktop software in C++.
-- Designing a public-health tool for a specific, underserved use case rather
-  than a generic one.
+- Building fast, self-contained desktop software in C++.
+- Building a public-health tool for a specific, underserved use case.
 
 *Repository and build/download links will be added here.*

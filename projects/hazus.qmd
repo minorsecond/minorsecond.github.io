@@ -15,29 +15,28 @@ deliverable.
 
 ## Problem
 
-FEMA's Hazus program estimates potential losses from natural hazards —
-earthquakes, floods, hurricanes, and related perils — by combining hazard data
-with inventories of buildings, infrastructure, and population. Work like this
-depends on a lot of moving parts staying correct together: geospatial data,
-model logic, and the databases underneath them all have to agree, and a change
-in one place can quietly shift results downstream. The engineering problem is
-keeping a risk model accurate, maintainable, and trustworthy as the data and
-methods evolve.
+FEMA's Hazus program estimates potential losses from natural hazards
+(earthquakes, floods, hurricanes, and related perils) by combining hazard data
+with inventories of buildings, infrastructure, and population. A lot of parts
+have to stay consistent for the output to mean anything: the geospatial data,
+the model logic, and the databases underneath. A change in one place can quietly
+shift results downstream, so much of the job is keeping the model accurate and
+maintainable as the data and methods change.
 
 ## Approach
 
-I contribute to the software and data side of this work: implementing and
-maintaining GIS-driven hazard and risk workflows, keeping the underlying
-databases current and consistent, and validating that changes produce correct,
-explainable results rather than merely running without error.
+I work on the software and data side: implementing and maintaining GIS-driven
+hazard and risk workflows, keeping the underlying databases current and
+consistent, and checking that changes produce correct, explainable results, not
+just code that runs without erroring.
 
-To give a sense of the work at a safe altitude: I led a ~2,000-event validation
-study comparing two hazard-data source formats, using descriptive statistics and
-confidence intervals to quantify agreement — which surfaced a geospatial
-data-processing defect that was corrected before deployment. I also designed a
-Python geospatial abstraction that standardizes coordinate-reference handling,
-spatial joins, and feature-class I/O across hazard modules, and I maintain the
-SQL Server databases behind these workflows with scripted QA checks.
+A representative piece of work: I led a roughly 2,000-event validation study
+comparing two hazard-data source formats, using descriptive statistics and
+confidence intervals to measure agreement. It surfaced a geospatial
+data-processing defect that got fixed before deployment. I also wrote a Python
+geospatial abstraction that standardizes coordinate-reference handling, spatial
+joins, and feature-class I/O across hazard modules, and I keep the SQL Server
+databases behind these workflows in shape with scripted QA checks.
 
 ## Methods and tools
 
@@ -48,7 +47,8 @@ SQL Server databases behind these workflows with scripted QA checks.
 - **Data engineering.** Database updates and maintenance in SQL Server, keeping
   spatial and tabular data consistent.
 - **Validation.** Checking model and data changes for correctness before they
-  ship — the part that matters most when people make decisions on the output.
+  ship, which is the part that matters most when people make decisions on the
+  output.
 - **Stack.** C#, C++, SQL Server, and ArcGIS-related geospatial tooling.
 
 ## Status
@@ -59,5 +59,5 @@ Ongoing professional work.
 
 - Production GIS software engineering against a real, widely used risk model.
 - Working across application code, spatial data, and databases at once.
-- Treating validation and correctness as first-class in a modeling context where
-  the results carry real weight.
+- Taking validation and correctness seriously in a setting where the results
+  actually get used.

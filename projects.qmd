@@ -51,9 +51,9 @@ compliance reporting from EHR data and geocoded addresses.
 
 ## Code & open source
 
-A few public repositories relevant to this work — disease modeling, biostatistics,
-and environmental data. The full list, including GIS and other tooling, is at
-[github.com/minorsecond](https://github.com/minorsecond).
+A few public repositories relevant to this work: disease modeling,
+biostatistics, and environmental data. The full list, including GIS and other
+tooling, is at [github.com/minorsecond](https://github.com/minorsecond).
 
 ::: {.repo-list}
 
@@ -63,7 +63,7 @@ and environmental data. The full list, including GIS and other tooling, is at
 A spatial agent-based simulation of arbovirus (Zika) transmission: human and
 mosquito agents are placed within census tracts and the model steps daily
 through vector, sexual, perinatal, and transfusion transmission routes, backed
-by a PostGIS database. A research prototype rather than a finished tool.
+by a PostGIS database. A research prototype, not a finished tool.
 
 [Spatial epidemiology]{.tag} [Agent-based model]{.tag} [Vector-borne disease]{.tag} [PostGIS]{.tag} [Python]{.tag}
 :::
@@ -96,8 +96,8 @@ prevalence map. Written up as a reproducible RMarkdown report.
 
 An interactive OpenLayers web map of Colorado land cover and forest-fragmentation
 change (2001–2016), with a time slider over WMS raster layers and county- and
-hex-grid aggregations served from a GeoServer backend. Environmental data
-communication rather than a health analysis.
+hex-grid aggregations served from a GeoServer backend. It's environmental-data
+communication, not a health analysis.
 
 [Web GIS]{.tag} [OpenLayers]{.tag} [Environmental data]{.tag} [Raster time series]{.tag}
 :::

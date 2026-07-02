@@ -14,20 +14,19 @@ level that discloses nothing about individuals or protected data.
 
 ## Problem
 
-Small health departments generate a lot of data — case reports, immunization
-records, addresses — but rarely have the capacity to turn it into spatial
-analysis that can guide where to put limited resources. Two concrete needs came
-up during my MPH practicum: leadership wanted to know *where* respiratory
-illness was clustering across the jurisdiction, and the immunization program
-needed to know which patients were overdue for required doses so nurses could
-follow up.
+Small health departments generate plenty of data (case reports, immunization
+records, addresses) but rarely have the capacity to turn it into spatial
+analysis that could guide where limited resources go. Two concrete needs came up
+during my MPH practicum: leadership wanted to know *where* respiratory illness
+was clustering across the jurisdiction, and the immunization program needed to
+know which patients were overdue for required doses so nurses could follow up.
 
 ## Approach
 
-Take existing operational data, clean and structure it into something
-analyzable, run appropriate spatial or record-level analysis, and hand back a
-deliverable the staff can re-run and act on — a notebook, a map, or a report —
-along with a plain-language note on what it does and doesn't show.
+The pattern was the same both times. Take the operational data, clean and
+structure it, run the appropriate spatial or record-level analysis, and hand
+back something the staff can re-run and act on (a notebook, a map, a report),
+with a plain-language note on what it does and doesn't show.
 
 ## Methods and tools
 
@@ -35,10 +34,10 @@ along with a plain-language note on what it does and doesn't show.
 
 - QA and structuring of a 3,454-record case export (2015–2026) into an
   analyzable dataset.
-- A reusable, time-enabled hex-binned count workflow so the analysis can be
+- A reusable, time-enabled hex-binned count workflow, so the analysis can be
   re-run by changing a single input.
-- Space-time cube construction and **emerging hot-spot analysis** to distinguish
-  persistent or intensifying trends from one-off spikes.
+- Space-time cube construction and **emerging hot-spot analysis** to tell
+  persistent or intensifying trends apart from one-off spikes.
 - Getis-Ord Gi\* hot- and cold-spot analysis by time period.
 - A standalone HTML web map and a plain-language method note for non-technical
   staff.
@@ -52,22 +51,22 @@ along with a plain-language note on what it does and doesn't show.
   compliance status, built on EHR-exported data.
 - A missed-dose patient list for outreach, and groundwork for mapping
   vaccine-uptake patterns from geocoded addresses.
-- QA and logic-verification steps documented alongside the build — including
+- QA and logic-verification steps documented alongside the build. This included
   catching a report-duplication issue in the EHR export that was inflating dose
-  counts, and documenting it so the numbers weren't used for outreach before the
+  counts, and flagging it so the numbers weren't used for outreach before the
   fix.
 
 ## Status
 
-The respiratory-illness analysis was completed and handed off, and was used
+The respiratory-illness analysis was completed and handed off, and it was used
 operationally to help plan outreach. The immunization-compliance work was in
 progress during the practicum period.
 
 ## What this demonstrates
 
 - Turning messy operational public-health data into reproducible analysis.
-- Correctly applying space-time and local-cluster methods — and being careful
-  about the difference between a raw count spike and a statistical trend.
+- Applying space-time and local-cluster methods correctly, including the
+  difference between a raw count spike and a statistical trend.
 - Building deliverables that non-technical staff can run and use, with honest
   method notes.
 - Handling sensitive data responsibly.

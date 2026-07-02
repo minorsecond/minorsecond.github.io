@@ -5,19 +5,20 @@ toc: false
 ---
 
 ::: {.lede}
-I work where public-health data, geography, and software meet — building the
-pipelines that turn messy surveillance and environmental data into something
-analyzable, and doing the spatial-statistics and modeling work on top of it.
+I build the data pipelines and statistical models behind public-health
+research. Most of what I do involves surveillance and environmental data that's
+messy, uneven, and collected for reasons other than analysis, along with the
+spatial and temporal methods needed to make sense of it.
 :::
 
-My background is in geography and geospatial software. I'm now finishing an MPH
-in Epidemiology at the University of Memphis, writing a quantitative thesis on
-West Nile virus mosquito surveillance in California. I also develop GIS and
-risk-modeling software in support of FEMA's Hazus program,
-and build open tools for spatial epidemiology in low-resource settings. The
-through-line is methods: getting the spatial statistics right, treating
-surveillance effort and detection bias as part of the problem, and writing
-analyses someone else can reproduce.
+My background is in geography and geospatial software, and I'm now finishing an
+MPH in Epidemiology at the University of Memphis. My thesis is a quantitative
+study of West Nile virus mosquito surveillance in California. I also work as a
+GIS and risk-modeling developer on FEMA's Hazus program, and I write
+open-source tools for spatial epidemiology in low-resource settings. What I care
+about most is method: whether the spatial statistics are done right, whether the
+analysis accounts for how the data was actually collected, and whether someone
+else could reproduce it.
 
 ## Selected work
 
@@ -26,8 +27,8 @@ analyses someone else can reproduce.
 ::: {.project-card}
 [West Nile virus thesis](projects/wnv-thesis.qmd){.card-title}
 
-California mosquito surveillance — modeling infection rate in mosquito pools
-against environment, surveillance effort, and space-time structure.
+A quantitative study of WNV infection rate in California mosquito pools, and how
+it tracks with environment, surveillance effort, and spatial pattern.
 
 [Spatial epidemiology]{.tag} [Bayesian modeling]{.tag} [Surveillance data]{.tag}
 :::
@@ -35,8 +36,8 @@ against environment, surveillance effort, and space-time structure.
 ::: {.project-card}
 [MESA](projects/mesa.qmd){.card-title}
 
-A C++ desktop tool for public-health mapping in sparse, rural areas — geocoding
-and spatial cluster detection, validated against established libraries.
+A C++ desktop tool for public-health mapping in sparse, rural areas. Geocoding
+and spatial cluster detection, checked against established libraries.
 
 [Spatial statistics]{.tag} [C++]{.tag} [Public health]{.tag}
 :::
@@ -44,8 +45,8 @@ and spatial cluster detection, validated against established libraries.
 ::: {.project-card}
 [FEMA Hazus](projects/hazus.qmd){.card-title}
 
-GIS and risk-modeling software in support of FEMA's natural-hazard
-loss-estimation program: hazard workflows, data engineering, and validation.
+GIS and risk-modeling software for FEMA's natural-hazard loss-estimation
+program: hazard workflows, data engineering, and validation.
 
 [GIS]{.tag} [Risk modeling]{.tag} [C#/C++]{.tag}
 :::
@@ -53,7 +54,7 @@ loss-estimation program: hazard workflows, data engineering, and validation.
 ::: {.project-card}
 [SEUHD practicum](projects/seuhd-practicum.qmd){.card-title}
 
-Applied public-health GIS with a health department — respiratory-illness
+Applied public-health GIS at a local health department: respiratory-illness
 hot-spot analysis and immunization-compliance reporting.
 
 [Applied epidemiology]{.tag} [ArcGIS]{.tag} [Surveillance data]{.tag}
