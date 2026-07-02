@@ -58,7 +58,7 @@ and environmental data. The full list, including GIS and other tooling, is at
 ::: {.repo-list}
 
 ::: {.repo-item}
-[host-vector-human-model](https://github.com/minorsecond/host-vector-human-model){.repo-name}
+[Host–vector–human transmission model](https://github.com/minorsecond/host-vector-human-model){.repo-name}
 
 A spatial agent-based simulation of arbovirus (Zika) transmission: human and
 mosquito agents are placed within census tracts and the model steps daily
@@ -69,7 +69,7 @@ by a PostGIS database. A research prototype rather than a finished tool.
 :::
 
 ::: {.repo-item}
-[Epi](https://github.com/minorsecond/Epi){.repo-name}
+[Stochastic SEIR epidemic model](https://github.com/minorsecond/Epi){.repo-name}
 
 An individual-based stochastic SEIR model: each person moves through
 susceptible–exposed–infectious–removed states with Gaussian-drawn incubation
@@ -80,7 +80,7 @@ a vaccination threshold and writes the epidemic curve to CSV.
 :::
 
 ::: {.repo-item}
-[bios5300](https://github.com/minorsecond/bios5300){.repo-name}
+[Behavioral risk factors for stroke (BRFSS)](https://github.com/minorsecond/bios5300){.repo-name}
 
 A graduate biostatistics study of stroke and behavioral/mental-health factors
 (drinking, smoking, anxiety, depression, sleep) in 2016 BRFSS data, using
@@ -92,7 +92,7 @@ prevalence map. Written up as a reproducible RMarkdown report.
 :::
 
 ::: {.repo-item}
-[co_forestfrag_map](https://github.com/minorsecond/co_forestfrag_map){.repo-name}
+[Colorado forest-fragmentation web map](https://github.com/minorsecond/co_forestfrag_map){.repo-name}
 
 An interactive OpenLayers web map of Colorado land cover and forest-fragmentation
 change (2001–2016), with a time slider over WMS raster layers and county- and
