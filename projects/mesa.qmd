@@ -44,6 +44,8 @@ offline, not to be a general-purpose GIS.
 
 ## Status
 
-Active personal project. The core spatial statistics and their validation are
-the part I care most about getting right; the application around them is the
-delivery mechanism.
+Active personal project, with a public landing page at
+[spatialepi.org](https://spatialepi.org); packaged builds for Windows, macOS, and
+Linux are in progress. The core spatial statistics and their validation are the
+part I care most about getting right; the application around them is the delivery
+mechanism.

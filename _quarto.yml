@@ -7,7 +7,7 @@ project:
 
 website:
   title: "Ross Wardrup"
-  description: "Ross Wardrup — research in spatial and computational epidemiology: infectious and vector-borne disease surveillance, environmental drivers, and Bayesian spatiotemporal modeling."
+  description: "Ross Wardrup, research in spatial and computational epidemiology: infectious and vector-borne disease surveillance, environmental drivers, and Bayesian spatiotemporal modeling."
   site-url: "https://rwardrup.com"
   reader-mode: false
   page-navigation: true
