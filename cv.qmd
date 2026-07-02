@@ -14,6 +14,8 @@ description: "Curriculum vitae for Ross Wardrup — spatial and computational ep
 [ORCID 0009-0005-8235-6047](https://orcid.org/0009-0005-8235-6047) ·
 [Google Scholar](https://scholar.google.com/citations?user=NAcxI4IAAAAJ)
 
+**[Download CV (PDF)](assets/cv/ross-wardrup-cv.pdf)**
+
 I'm a researcher in spatial and computational epidemiology and an MPH
 Epidemiology candidate, with a background in medical geography and more than a
 decade of quantitative and geospatial work. My research applies Bayesian spatial
