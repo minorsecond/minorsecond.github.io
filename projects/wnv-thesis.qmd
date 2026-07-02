@@ -87,13 +87,3 @@ problem. That's a finding about the modeling framework, not about WNV.
 The analysis on actual surveillance data is gated on data-use and review
 requirements, so no substantive results appear here. This page describes the
 design, not the findings.
-
-## What this demonstrates
-
-- Building a reproducible environmental-and-surveillance data pipeline from
-  heterogeneous public sources.
-- Putting surveillance effort and detection into the model instead of ignoring
-  them.
-- Applied Bayesian hierarchical and spatiotemporal modeling, with spatial
-  confounding handled explicitly.
-- Validating a modeling approach on simulated data before committing to it.

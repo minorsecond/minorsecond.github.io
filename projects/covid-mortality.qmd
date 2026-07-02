@@ -60,13 +60,3 @@ associations with regression that accounts for the spatial dependence.
   in the spatial models. Because the design is ecological and the outcome is a
   county-level trend, the paper frames those associations as descriptive rather
   than causal.
-
-## What this demonstrates
-
-- A complete spatial-epidemiology workflow on national data, from cluster
-  detection through spatial regression, carried end to end by one person.
-- Handling spatial autocorrelation and multicollinearity as first-class parts of
-  the design rather than afterthoughts.
-- Framing a health-disparities question spatially, and being explicit about what
-  an ecological design can and can't support.
-- Taking a study from question to written manuscript independently.

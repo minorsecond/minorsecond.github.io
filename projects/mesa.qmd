@@ -47,10 +47,3 @@ offline, not to be a general-purpose GIS.
 Active personal project. The core spatial statistics and their validation are
 the part I care most about getting right; the application around them is the
 delivery mechanism.
-
-## What this demonstrates
-
-- Implementing spatial statistics (Gi\*, Moran's I, permutation inference) from
-  the ground up and validating them against reference libraries.
-- Building fast, self-contained desktop software in C++.
-- Building a public-health tool for a specific, underserved use case.

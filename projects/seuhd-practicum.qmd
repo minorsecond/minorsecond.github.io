@@ -61,12 +61,3 @@ with a plain-language note on what it does and doesn't show.
 The respiratory-illness analysis was completed and handed off, and it was used
 operationally to help plan outreach. The immunization-compliance work was in
 progress during the practicum period.
-
-## What this demonstrates
-
-- Turning messy operational public-health data into reproducible analysis.
-- Applying space-time and local-cluster methods correctly, including the
-  difference between a raw count spike and a statistical trend.
-- Building deliverables that non-technical staff can run and use, with honest
-  method notes.
-- Handling sensitive data responsibly.

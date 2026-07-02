@@ -54,10 +54,3 @@ databases behind these workflows in shape with scripted QA checks.
 ## Status
 
 Ongoing professional work.
-
-## What this demonstrates
-
-- Production GIS software engineering against a real, widely used risk model.
-- Working across application code, spatial data, and databases at once.
-- Taking validation and correctness seriously in a setting where the results
-  actually get used.

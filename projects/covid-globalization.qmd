@@ -71,11 +71,3 @@ index.
 
 I was a co-author from the UNTHSC biostatistics and epidemiology group and
 contributed to the quantitative analysis behind the vulnerability assessment.
-
-## What this demonstrates
-
-- Applying a formal multi-criteria decision method with model-derived weights to
-  a public-health ranking problem.
-- Synthesizing heterogeneous global data (mobility, economic, and health-system
-  sources) into a single comparable index.
-- Peer-reviewed collaborative research in a large, international author group.
