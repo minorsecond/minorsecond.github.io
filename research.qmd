@@ -15,18 +15,17 @@ county and year to the next, and outcomes recorded at whatever resolution the
 reporting allows. I work on getting honest, well-calibrated estimates out of
 data like that.
 
-## How the data shapes the method
+## Approach
 
-Two problems shape the method. The first is the data-generating process: where
-and how hard someone looked shapes what turns up, so surveillance effort and
-detection belong inside the model rather than a limitations paragraph. The second
-is trust: a method has to earn it before I rely on it, so new spatial estimators
-get checked against reference implementations, and new models get run on
-simulated data with a known answer before they touch a real outcome. I work
-mostly in Bayesian hierarchical and spatiotemporal models (CAR/BYM2 spatial
-structures, distributed-lag climate terms, spatial-confounding adjustments),
-because they let me borrow strength across space and time while staying explicit
-about uncertainty.
+Surveillance data is collected to detect disease, not to support inference: where
+and how hard people look affects what turns up. I model surveillance effort and
+detection directly rather than noting them as limitations. I validate methods
+before using them. Spatial estimators are checked against PySAL and R
+implementations, and new models are tested on simulated data with known
+parameters before they are applied to real outcomes. Most analyses use Bayesian
+hierarchical and spatiotemporal models (CAR/BYM2 spatial structures,
+distributed-lag climate terms, spatial-confounding adjustments), which share
+information across space and time and quantify uncertainty.
 
 ## Current work
 
