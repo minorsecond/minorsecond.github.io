@@ -31,6 +31,14 @@ maintaining GIS-driven hazard and risk workflows, keeping the underlying
 databases current and consistent, and validating that changes produce correct,
 explainable results rather than merely running without error.
 
+To give a sense of the work at a safe altitude: I led a ~2,000-event validation
+study comparing two hazard-data source formats, using descriptive statistics and
+confidence intervals to quantify agreement — which surfaced a geospatial
+data-processing defect that was corrected before deployment. I also designed a
+Python geospatial abstraction that standardizes coordinate-reference handling,
+spatial joins, and feature-class I/O across hazard modules, and I maintain the
+SQL Server databases behind these workflows with scripted QA checks.
+
 ## Methods and tools
 
 - **GIS software development.** Geospatial workflows built around ArcGIS-based

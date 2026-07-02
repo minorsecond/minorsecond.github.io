@@ -2,30 +2,33 @@
 title: "Publications & research"
 ---
 
-Peer-reviewed work, preprints, talks, and the thesis. This list is kept current;
-entries in progress are marked as such. Placeholders below show the structure and
-will be filled in as work is published or presented.
+Peer-reviewed work, preprints, and the thesis. This list is kept current; work in
+progress is marked as such.
 
 ## Peer-reviewed
 
-*None yet listed.*
+- **The Impact of COVID-19 on Globalization.** *One Health* 11:100180 (2020).
+  [doi:10.1016/j.onehlt.2020.100180](https://doi.org/10.1016/j.onehlt.2020.100180).
+  Contributed quantitative analysis of the relationships between pandemic spread,
+  mobility patterns, and global economic disruption.
 
 <!-- Template — copy per entry:
-- Author(s). "Title." *Journal*, year. [DOI](https://doi.org/…)
+- Author(s). **Title.** *Journal* vol:pages (year). [doi:…](https://doi.org/…)
 -->
 
 ## Preprints
 
-*None yet listed.*
-
-<!--
-- Author(s). "Title." medRxiv, year. [Preprint](https://www.medrxiv.org/…)
--->
+- **Spatial Patterns of COVID-19 Mortality: Examining Socioeconomic Determinants
+  in U.S. Counties Using Cluster Analysis.** Wardrup R. medRxiv (2024).
+  Sole-author study using cluster analysis to identify spatial patterns in
+  U.S. county-level COVID-19 mortality and the socioeconomic determinants
+  associated with them.
+  <!-- Add the medRxiv DOI/URL here once available. -->
 
 ## Thesis
 
-- **West Nile virus surveillance in California: environmental drivers,
-  surveillance effort, and spatiotemporal patterns of mosquito-pool infection.**
+- **Bayesian spatiotemporal modeling of West Nile virus in California:
+  environmental drivers, surveillance effort, and mosquito-pool infection.**
   MPH thesis, University of Memphis. In progress; expected 2027.
   [Project page](projects/wnv-thesis.qmd)
 
@@ -34,7 +37,7 @@ will be filled in as work is published or presented.
 *None yet listed.*
 
 <!--
-- "Title." Event, location, month year. [Slides](…)
+- **Title.** Event, location, month year. [Slides](…)
 -->
 
 ## Posters
@@ -42,16 +45,12 @@ will be filled in as work is published or presented.
 *None yet listed.*
 
 <!--
-- Author(s). "Title." Conference, year. [Poster (PDF)](…)
+- Author(s). **Title.** Conference, year. [Poster (PDF)](…)
 -->
-
-## Working manuscripts
-
-*None yet listed.*
 
 ---
 
 ::: {.callout-note appearance="simple"}
-Preprint, DOI, slide, and poster links go in the sections above as each item
-lands. Dates are given as year, or "in progress" until final.
+Full author lists, DOIs, and slide/poster links are added to each entry as they
+become available.
 :::

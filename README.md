@@ -24,6 +24,7 @@ GitHub Pages at <https://minorsecond.github.io>.
 │   ├── cv/                      # drop ross-wardrup-cv.pdf here
 │   └── img/                     # favicon.png and any figures
 ├── .github/workflows/publish.yml  # GitHub Actions: render + deploy
+├── CNAME                        # custom domain: rwardrup.com
 ├── .gitignore
 └── README.md
 ```
@@ -105,35 +106,36 @@ this if you'd rather not use Actions. Don't mix the two methods on the same repo
 - **New project page.** Add `projects/<name>.qmd` and link it from
   `projects.qmd`.
 
-## Custom domain (optional, later)
+## Custom domain — rwardrup.com
 
-You can point a custom domain at the site whenever you're ready — no domain is
-required now.
+The site is configured to serve at **`rwardrup.com`**:
 
-1. Add a file named **`CNAME`** at the repo root containing only your domain,
-   e.g.:
+- A **`CNAME`** file at the repo root contains `rwardrup.com`, and `_quarto.yml`
+  lists it under `project.resources` so Quarto copies it into `_site/` on every
+  render (required for the GitHub Actions deploy).
+- `site-url` in `_quarto.yml` is set to `https://rwardrup.com`.
 
-   ```
-   www.example.com
-   ```
+Two things still have to happen on GitHub's side to make the domain live:
 
-   (If you use GitHub Actions to deploy, also add the same file so it ends up in
-   `_site/` — the simplest way is to keep `CNAME` at the project root; Quarto
-   copies root-level `CNAME` into the output. Alternatively set the domain under
-   **Settings → Pages → Custom domain**, which creates/manages the `CNAME` for
-   you.)
+1. **DNS.** At your domain registrar / DNS provider, point `rwardrup.com` at
+   GitHub Pages:
+   - Apex (`rwardrup.com`) — four `A` records to `185.199.108.153`,
+     `185.199.109.153`, `185.199.110.153`, `185.199.111.153` (and, optionally,
+     the matching `AAAA` records for IPv6).
+   - `www.rwardrup.com` — a `CNAME` record pointing to
+     `minorsecond.github.io`.
+2. **GitHub.** After the first deploy, go to **Settings → Pages**, confirm the
+   custom domain shows `rwardrup.com`, and enable **Enforce HTTPS** once the
+   certificate is issued (can take a few minutes to an hour).
 
-2. At your DNS provider, add the records GitHub documents for apex/`www` domains
-   (`A`/`AAAA` records to GitHub's IPs for an apex domain, or a `CNAME` to
-   `minorsecond.github.io` for a `www` subdomain).
-
-3. In **Settings → Pages**, enter the domain and enable **Enforce HTTPS** once
-   the certificate is issued.
+Until DNS propagates, the site is still reachable at
+`https://minorsecond.github.io`.
 
 See <https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site>.
 
 ## Notes
 
 - The site is fully static — no backend or server-side code.
-- `site-url` in `_quarto.yml` is set to `https://minorsecond.github.io`; update
-  it if you move to a custom domain.
+- `site-url` in `_quarto.yml` is `https://rwardrup.com`. The GitHub repository is
+  still named `minorsecond.github.io` (a user-pages repo); the custom domain
+  layers on top of it.

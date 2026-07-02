@@ -77,9 +77,18 @@ The work moves in stages:
 The pipeline and modeling harness are built and have been stress-tested on
 simulated data — feasibility checks, pathology tests, and a model-specification
 study to choose the analytic model before touching the real outcome. The
-analysis on actual surveillance data is gated on data-use and review
-requirements, so results are not reported here. The framing is deliberately
-provisional: this page describes the design, not findings.
+simulation study uses real public covariate structure with simulated outcomes
+carrying a known effect, then checks whether each candidate model's 95%
+intervals cover that effect at the stated rate, across data-generating scenarios
+that vary temporal autocorrelation, overdispersion, and positivity. One clear
+finding so far: omitting seasonal and month-to-month temporal structure produces
+substantial under-coverage of the uncertainty intervals — and the point
+estimates alone do not reveal the problem. That result is about the modeling
+framework, not about WNV.
+
+The analysis on actual surveillance data is gated on data-use and review
+requirements, so no substantive results are reported here. The framing is
+deliberately provisional: this page describes the design, not findings.
 
 ## What this demonstrates
 

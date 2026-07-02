@@ -64,7 +64,8 @@ hot-spot analysis and immunization-compliance reporting.
 
 ::: {.contact-strip}
 **Ross Wardrup** &nbsp;·&nbsp;
-[minorsecond@gmail.com](mailto:minorsecond@gmail.com) &nbsp;·&nbsp;
+[ross@rwardrup.com](mailto:ross@rwardrup.com) &nbsp;·&nbsp;
 [github.com/minorsecond](https://github.com/minorsecond) &nbsp;·&nbsp;
+[LinkedIn](https://www.linkedin.com/in/robert-wardrup/) &nbsp;·&nbsp;
 [Curriculum vitae](cv.qmd)
 :::

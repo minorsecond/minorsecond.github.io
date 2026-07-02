@@ -33,7 +33,8 @@ along with a plain-language note on what it does and doesn't show.
 
 **Respiratory illness spatial analysis**
 
-- QA and structuring of a case export into an analyzable dataset.
+- QA and structuring of a 3,454-record case export (2015–2026) into an
+  analyzable dataset.
 - A reusable, time-enabled hex-binned count workflow so the analysis can be
   re-run by changing a single input.
 - Space-time cube construction and **emerging hot-spot analysis** to distinguish
@@ -51,7 +52,10 @@ along with a plain-language note on what it does and doesn't show.
   compliance status, built on EHR-exported data.
 - A missed-dose patient list for outreach, and groundwork for mapping
   vaccine-uptake patterns from geocoded addresses.
-- QA and logic-verification steps documented alongside the build.
+- QA and logic-verification steps documented alongside the build — including
+  catching a report-duplication issue in the EHR export that was inflating dose
+  counts, and documenting it so the numbers weren't used for outreach before the
+  fix.
 
 ## Status
 

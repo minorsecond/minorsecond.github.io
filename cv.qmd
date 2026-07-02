@@ -1,84 +1,147 @@
 ---
 title: "Curriculum vitae"
+subtitle: "Robert (Ross) Wardrup — Centennial, CO"
 ---
 
-::: {.callout-tip appearance="simple"}
-A PDF version is available here: [Download CV (PDF)](assets/cv/ross-wardrup-cv.pdf).
-Drop the file at `assets/cv/ross-wardrup-cv.pdf` to enable the link.
+::: {.tags .project-tags}
+[Spatial epidemiology]{.tag} [Bayesian modeling]{.tag} [Public-health GIS]{.tag} [Surveillance data]{.tag} [SQL / R / Python]{.tag}
 :::
 
-The summary below is kept current. Dates and institution details in placeholders
-should be confirmed before this is treated as final.
+::: {.callout-tip appearance="simple"}
+A one-to-two-page PDF version is available here:
+[Download CV (PDF)](assets/cv/ross-wardrup-cv.pdf). Drop the compiled file at
+`assets/cv/ross-wardrup-cv.pdf` to enable the link.
+:::
 
-## Ross Wardrup
+[ross@rwardrup.com](mailto:ross@rwardrup.com) ·
+[github.com/minorsecond](https://github.com/minorsecond) ·
+[linkedin.com/in/robert-wardrup](https://www.linkedin.com/in/robert-wardrup/)
 
-Spatial epidemiology · public-health GIS · applied statistical software
+MPH Epidemiology candidate with a background in medical geography and over a
+decade of experience building and analyzing large health and geospatial
+datasets. Graduate research applies Bayesian spatial models to vector-borne
+disease surveillance, with an emphasis on simulation-based model validation.
+Professional work spans public-health surveillance, healthcare analytics, and
+federal geospatial hazard modeling.
 
-[minorsecond@gmail.com](mailto:minorsecond@gmail.com) ·
-[github.com/minorsecond](https://github.com/minorsecond)
+## Research interests
 
----
+Spatial and computational epidemiology; Bayesian spatial and spatiotemporal
+modeling; infectious and vector-borne disease; environmental health; health
+disparities; maternal and child health; health services research.
 
 ## Education
 
-**MPH, Epidemiology** — University of Memphis
-*In progress; expected 2027.* Quantitative thesis on West Nile virus mosquito
-surveillance in California (Bayesian hierarchical spatiotemporal modeling).
+**Master of Public Health (MPH), Epidemiology** — University of Memphis
+*In progress; Aug 2022 – present (expected 2027).*
+Coursework: Epidemiology I & II, Biostatistics I & II, Environmental
+Epidemiology, Spatial Epidemiology, Epidemiologic Methods, Survey Research
+Methods, Causal Inference, Environmental Health.
 
-**[Prior degree, field]** — [Institution], [year]
-<!-- Fill in undergraduate / other degrees. -->
+**Bachelor of Science, Geography** — University of North Texas, Denton, TX
+*May 2013.*
 
----
+## Thesis
 
-## Experience
+**Bayesian spatiotemporal modeling of West Nile virus, California.**
+A pooled-prevalence, BYM2-analog hierarchical model of WNV vector positivity
+across California counties, 2006–2024, with distributed-lag climate covariates
+and queen-contiguity spatial structure. Because the surveillance data is
+restricted and gated pending IRB approval, the work is being validated first
+through a simulation-based framework that checks interval coverage across
+model specifications and data-generating scenarios.
+[Project page](projects/wnv-thesis.qmd)
 
-**GIS / Software Developer — FEMA Hazus program support**
-*[Employer], [start]–present*
-Develop and maintain GIS-driven hazard and risk-modeling software for FEMA's
-Hazus natural-hazard loss-estimation program. Work spans application code,
-spatial data engineering, database maintenance, and validation. Stack: C#, C++,
-SQL Server, ArcGIS-based tooling.
+## Public-health experience
 
-**MPH Epidemiology Practicum — Southeast Utah Health Department**
-*2026*
-Spatial analysis of respiratory illness (space-time cubes, emerging hot-spot
-analysis, Getis-Ord Gi\*) and immunization-compliance reporting from EHR data.
-Delivered reusable ArcGIS/`arcpy` workflows and non-technical method notes.
+**MPH Epidemiology Practicum Intern** — Southeast Utah Health Department
+*May 2026 – present. Remote / Price, UT.*
 
-<!-- Add earlier roles as needed. -->
+- Analyzed 3,454 respiratory-illness records (2015–2026) with ArcGIS Pro / Python,
+  Getis-Ord Gi\*, and Emerging Hot Spot Analysis to describe spatial and temporal
+  disease burden across the jurisdiction.
+- Produced reusable surveillance maps, method notes, and briefing materials used
+  in department planning, including mobile-vaccine-clinic planning.
+- Built EHR-based (eClinicalWorks / eBO) immunization-compliance logic for
+  school-entry requirements: CVX-to-requirement mapping, age-gated criteria,
+  distinct-dose counting, and missing-dose flags.
+- Identified a report-duplication issue in the EHR export that was inflating
+  vaccine dose counts, and documented QA to keep it out of outreach before
+  correction.
 
----
+**Epidemiology & Data Science Professional (Temp)** — Tri-County Health Department
+*Jan 2021 – May 2021. Remote.*
+
+- Built ETL workflows in FME / FME Server to integrate public-health
+  surveillance datasets into centralized geospatial databases.
+- Designed and maintained PostGIS databases supporting COVID-19 case
+  surveillance and vaccination monitoring.
+- Developed public-facing dashboards and epidemiologic visualizations for
+  department staff and community stakeholders.
+- Performed QA and validation of public-health datasets.
+
+## Professional experience
+
+**GIS Developer (Contract)** — FEMA, via Marathon TS and IBM
+*Dec 2024 – present. Remote.*
+
+- Led a 2,000-event validation study comparing two hazard-data source formats
+  for a national disaster-risk model, using descriptive statistics and
+  confidence intervals to quantify agreement; identified a geospatial
+  data-processing defect corrected before deployment.
+- Designed a Python geospatial data abstraction standardizing coordinate-
+  reference handling, spatial joins, and feature-class I/O across hazard modules.
+- Maintain SQL Server databases supporting federal hazard-modeling workflows,
+  including scripted QA checks for reproducible model execution.
+
+**GIS Analyst** — DaVita Kidney Care
+*May 2023 – Nov 2024. Remote.*
+
+- Built Python / ArcPy workflows supporting healthcare operations and resource
+  allocation across a national dialysis-provider network.
+- Conducted spatial and statistical analyses of healthcare access and
+  care-delivery patterns using R and GIS tools.
+- Handled extraction, transformation, integration, and validation of large
+  healthcare datasets.
+
+**Prior GIS roles.** Staff GIS Developer, Axim Geospatial (Dec 2021 – May 2023) —
+geospatial planning and mapping application development (Python, VB.NET,
+JavaScript/TypeScript) and QGIS data validation. GIS Engineer, Congruex / CHC
+Consulting (May 2021 – Dec 2021) — fiber-network infrastructure design and
+utility spatial-data analysis.
 
 ## Selected projects
 
 **MESA — Mapping Epidemiology in Sparse Areas.** C++ desktop application for
 public-health spatial analysis in rural/sparse settings: geocoding, Getis-Ord
-Gi\*, Moran's I, and Monte Carlo permutation testing, validated against PySAL and
-R. [Details](projects/mesa.qmd)
+Gi\*, Moran's I, and Monte Carlo permutation testing, validated against PySAL
+and R. [Details](projects/mesa.qmd)
 
-**WNV thesis pipeline.** Reproducible ETL and Bayesian spatiotemporal modeling
-harness for California WNV surveillance data on a county-month grid.
-[Details](projects/wnv-thesis.qmd)
-
----
+**Spatial analysis of vaccination exemptions in Colorado** *(Nov 2023).*
+Hotspot analysis and spatial interpolation (kriging, rate smoothing) of
+non-medical vaccination exemptions in R, examining associations with
+socioeconomic indicators.
 
 ## Skills
 
-**Languages.** C++, C#, R, Python, SQL
-**Spatial / statistical.** Bayesian hierarchical and spatiotemporal modeling
-(CAR/BYM2), exploratory spatial data analysis, local spatial statistics
-(Gi\*, Moran's I), permutation inference; PySAL, R spatial stack (INLA/mgcv,
-sf), ArcGIS Pro / `arcpy`
-**Data / infrastructure.** SQL Server, reproducible pipelines, version control,
-reproducible R/Python environments
+**Epidemiology & research.** Descriptive epidemiology; retrospective cohort
+studies; surveillance analysis; health-disparities research; longitudinal data
+analysis; regression modeling; Bayesian hierarchical modeling; simulation
+studies and model calibration; spatial epidemiology; data validation;
+reproducible research.
 
----
+**Programming & data.** SQL (PostgreSQL/PostGIS, T-SQL); R (tidyverse, ggplot2,
+R-INLA); SAS; Python (pandas, NumPy, ArcPy); Git; ETL workflows; database
+development; data QA.
 
-## Publications & presentations
+**Visualization & GIS.** Tableau; ArcGIS Pro; ArcGIS Online; QGIS; FME.
+
+## Publications
 
 See [Publications & research](publications.qmd).
 
----
+## Professional memberships
 
-*Last updated: 2026. Placeholder fields marked with brackets are pending
-confirmation.*
+- Society for Epidemiologic Research (SER) — student member, 2025–present.
+- Council of State and Territorial Epidemiologists (CSTE) — student member,
+  2025–present.

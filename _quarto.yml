@@ -1,11 +1,13 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - CNAME
 
 website:
   title: "Ross Wardrup"
   description: "Spatial epidemiology, public-health GIS, and applied statistical software."
-  site-url: "https://minorsecond.github.io"
+  site-url: "https://rwardrup.com"
   favicon: assets/img/favicon.png
   reader-mode: false
   page-navigation: true
@@ -28,6 +30,9 @@ website:
       - icon: github
         href: https://github.com/minorsecond
         aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/robert-wardrup/
+        aria-label: LinkedIn
 
   page-footer:
     left: "© 2026 Ross Wardrup"
@@ -35,8 +40,11 @@ website:
       - icon: github
         href: https://github.com/minorsecond
         aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/robert-wardrup/
+        aria-label: LinkedIn
       - icon: envelope
-        href: "mailto:minorsecond@gmail.com"
+        href: "mailto:ross@rwardrup.com"
         aria-label: Email
 
 format:
