@@ -19,9 +19,7 @@ items are noted.
 
 [*One Health* 11:100180 · 2020]{.pub-venue}
 
-[Contributed quantitative analysis of pandemic spread, mobility, and economic disruption. Built a country-level COVID-19 vulnerability index (TOPSIS with model-derived weights).]{.pub-desc}
-
-[[DOI](https://doi.org/10.1016/j.onehlt.2020.100180) [Full write-up →](projects/covid-globalization.qmd)]{.pub-links}
+[[DOI](https://doi.org/10.1016/j.onehlt.2020.100180)]{.pub-links}
 :::
 
 :::

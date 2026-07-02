@@ -58,15 +58,6 @@ socioeconomic determinants. Preprint.
 [Spatial epidemiology]{.tag} [Cluster detection]{.tag} [Health disparities]{.tag}
 :::
 
-::: {.project-card}
-[COVID-19 and globalization](projects/covid-globalization.qmd){.card-title}
-
-A peer-reviewed *One Health* study of the pandemic's effect on global mobility,
-trade, and economies, with a TOPSIS country-vulnerability index. Co-authored.
-
-[Global health]{.tag} [Multi-criteria analysis]{.tag} [Co-authored]{.tag}
-:::
-
 :::
 
 ## Code & open source
