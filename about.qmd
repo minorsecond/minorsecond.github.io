@@ -19,11 +19,10 @@ Colorado.
 I'm finishing an MPH in Epidemiology at the University of Memphis. My thesis is a
 Bayesian spatiotemporal study of West Nile virus mosquito surveillance across
 California, looking at how environmental covariates, surveillance effort, and
-space-time patterns relate to infection rates in mosquito pools. Because the
-surveillance data is access-restricted, I started with the validation rather
-than the analysis: a simulation framework that checks whether each candidate
-model actually recovers a known effect at its stated uncertainty, before any of
-them see the real data.
+space-time patterns relate to infection rates in mosquito pools. I built the
+validation first: a simulation framework that checks whether each candidate
+model actually recovers a known effect at its stated uncertainty before it's
+fit to the real data.
 
 I also work as a contractor developing GIS and risk-modeling software for FEMA's
 Hazus natural-hazard loss-estimation program. The day-to-day is Python, C#/C++,

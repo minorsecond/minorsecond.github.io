@@ -32,12 +32,12 @@ about uncertainty.
 
 My MPH thesis studies West Nile virus mosquito surveillance across California,
 modeling infection rate in mosquito pools against environmental covariates and
-surveillance effort on a county-month grid. Because the surveillance data is
-access-restricted, I built the validation before the analysis: a simulation
-framework that measures whether each candidate model recovers a known effect at
-its stated uncertainty. It already showed that leaving out seasonal and
-month-to-month structure badly under-covers the intervals, something the point
-estimates alone would hide. [More on the thesis.](projects/wnv-thesis.qmd)
+surveillance effort on a county-month grid. I built the validation before the
+analysis: a simulation framework that measures whether each candidate model
+recovers a known effect at its stated uncertainty. It already showed that
+leaving out seasonal and month-to-month structure badly under-covers the
+intervals, something point estimates alone would hide.
+[More on the thesis.](projects/wnv-thesis.qmd)
 
 Earlier work runs along the same line. A sole-authored spatial analysis of
 COVID-19 mortality and its socioeconomic determinants across 3,000-plus U.S.

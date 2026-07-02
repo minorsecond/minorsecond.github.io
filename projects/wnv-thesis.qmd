@@ -8,9 +8,9 @@ subtitle: "MPH thesis: spatial and spatiotemporal modeling of mosquito-pool infe
 :::
 
 ::: {.callout-note appearance="simple"}
-**Status:** in progress. The methods and pipeline are built and tested on
-simulated data; the analysis on real surveillance data is pending data-use and
-review requirements. No results are reported here yet.
+**Status:** in progress; thesis expected 2027. The data pipeline and Bayesian
+modeling framework are built and validated on simulated data. Fitting on the
+California surveillance data is the next stage.
 :::
 
 ## Problem
@@ -51,6 +51,11 @@ The work moves in stages:
    information across space and time and separate signal from surveillance
    artifact.
 
+<figure class="fig">
+<img src="../assets/img/wnv-ndvi.png" alt="Choropleth of MODIS vegetation index (NDVI) across California counties and a neighbor-state buffer, 2020">
+<figcaption>One layer of the environmental covariate warehouse: MODIS vegetation (NDVI) across the California study area and its 100-mile neighbor-state buffer, 2020. Everything is assembled on a county-by-month grid.</figcaption>
+</figure>
+
 ## Methods and tools
 
 - **Outcome.** Pooled-prevalence infection rate for WNV in *Culex* vectors,
@@ -73,17 +78,20 @@ The work moves in stages:
 
 ## Status
 
-The pipeline and modeling harness are built, and I've stress-tested them on
-simulated data: feasibility checks, pathology tests, and a model-specification
-study to choose the analytic model before touching the real outcome. The
-simulation study takes real public covariate structure, simulates outcomes with
-a known effect, and then checks whether each candidate model's 95% intervals
-cover that effect at the stated rate, across scenarios that vary temporal
-autocorrelation, overdispersion, and positivity. One clear result so far:
-leaving out seasonal and month-to-month temporal structure badly under-covers
-the uncertainty intervals, and the point estimates alone don't reveal the
-problem. That's a finding about the modeling framework, not about WNV.
+The pipeline and modeling framework are built and stress-tested on simulated
+data: feasibility checks, pathology tests, and a model-specification study to
+choose the analytic model before fitting the real outcome. The simulation study
+takes real public covariate structure, simulates outcomes with a known effect,
+and checks whether each candidate model's 95% intervals cover that effect at the
+stated rate, across scenarios that vary temporal autocorrelation, overdispersion,
+and positivity.
 
-The analysis on actual surveillance data is gated on data-use and review
-requirements, so no substantive results appear here. This page describes the
-design, not the findings.
+<figure class="fig">
+<img src="../assets/img/wnv-coverage.png" alt="Bar chart of 95% interval coverage for three model specifications across temporal-autocorrelation scenarios; naive models under-cover as autocorrelation rises while the BYM2 model holds near nominal">
+<figcaption>Simulation-based model validation: 95% interval coverage for three specifications as temporal autocorrelation increases. Naive models collapse well below nominal coverage; the BYM2 spatiotemporal model holds near 0.95. Outcomes are simulated with a known truth, not real WNV data.</figcaption>
+</figure>
+
+The result is clear: leaving out seasonal and month-to-month temporal structure
+badly under-covers the uncertainty intervals, while the BYM2 spatiotemporal
+specification stays near nominal. The point estimates alone don't reveal the
+problem. Fitting the model on the California surveillance data is the next stage.

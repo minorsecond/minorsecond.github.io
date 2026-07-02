@@ -48,9 +48,9 @@ University of North Texas, Denton, TX · *May 2013*
 **Bayesian spatiotemporal modeling of West Nile virus, California.**
 A pooled-prevalence, BYM2-analog hierarchical model of WNV vector positivity
 across California counties, 2006–2024, with distributed-lag climate covariates
-and queen-contiguity spatial structure. Since the surveillance data is
-restricted pending IRB approval, I'm validating the approach first on simulated
-data, checking interval coverage across model specifications and scenarios.
+and queen-contiguity spatial structure. Validated first on simulated data
+(interval coverage across model specifications and scenarios), with the
+surveillance-data fit as the next stage.
 [Project page](projects/wnv-thesis.qmd)
 
 ## Public-health experience
