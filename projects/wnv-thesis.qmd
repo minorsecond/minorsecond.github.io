@@ -96,7 +96,7 @@ and positivity.
 <figcaption>Simulation-based model validation: 95% interval coverage for three specifications as temporal autocorrelation increases. Naive models collapse well below nominal coverage; the BYM2 spatiotemporal model holds near 0.95. Outcomes are simulated with a known truth, not real WNV data.</figcaption>
 </figure>
 
-The result is clear: leaving out seasonal and month-to-month temporal structure
-badly under-covers the uncertainty intervals, while the BYM2 spatiotemporal
-specification stays near nominal. The point estimates alone don't reveal the
-problem. Fitting the model on the California surveillance data is the next stage.
+Leaving out seasonal and month-to-month temporal structure badly under-covers
+the uncertainty intervals, while the BYM2 spatiotemporal specification stays near
+nominal. The point estimates alone don't reveal the problem. Fitting the model on
+the California surveillance data is the next stage.

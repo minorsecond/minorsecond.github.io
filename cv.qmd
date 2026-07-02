@@ -1,7 +1,7 @@
 ---
 title: "Curriculum vitae"
 subtitle: "Robert (Ross) Wardrup · Centennial, CO"
-description: "Curriculum vitae for Ross Wardrup — spatial and computational epidemiology, public-health GIS, and applied statistical software."
+description: "Curriculum vitae for Ross Wardrup: spatial and computational epidemiology, public-health GIS, and applied statistical software."
 ---
 
 ::: {.tags .project-tags}

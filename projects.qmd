@@ -101,7 +101,7 @@ prevalence map. Written up as a reproducible RMarkdown report.
 
 <figure class="fig">
 <img src="assets/img/stroke-prevalence.png" alt="Choropleth map of US state-level stroke prevalence from 2016 BRFSS data, higher in the southeastern stroke belt">
-<figcaption>State-level stroke prevalence, 2016 BRFSS (survey-weighted) — one output of the analysis.</figcaption>
+<figcaption>State-level stroke prevalence, 2016 BRFSS (survey-weighted): one output of the analysis.</figcaption>
 </figure>
 
 [Biostatistics]{.tag} [Complex survey design]{.tag} [Logistic regression]{.tag} [BRFSS]{.tag} [R]{.tag}
