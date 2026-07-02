@@ -51,64 +51,55 @@ compliance reporting from EHR data and geocoded addresses.
 
 ## Code & open source
 
-Smaller public repositories relevant to this work — disease modeling, spatial
-methods, and environmental data. The full list, including GIS and other tooling,
-is at [github.com/minorsecond](https://github.com/minorsecond).
+A few public repositories relevant to this work — disease modeling, biostatistics,
+and environmental data. The full list, including GIS and other tooling, is at
+[github.com/minorsecond](https://github.com/minorsecond).
 
 ::: {.repo-list}
 
 ::: {.repo-item}
 [host-vector-human-model](https://github.com/minorsecond/host-vector-human-model){.repo-name}
 
-A spatial simulation of mosquito-borne transmission linking vector, host, and
-human populations over census-tract geography, backed by PostGIS.
+A spatial agent-based simulation of arbovirus (Zika) transmission: human and
+mosquito agents are placed within census tracts and the model steps daily
+through vector, sexual, perinatal, and transfusion transmission routes, backed
+by a PostGIS database. A research prototype rather than a finished tool.
 
-[Vector-borne disease]{.tag} [Spatial simulation]{.tag} [PostGIS]{.tag} [Python]{.tag}
+[Spatial epidemiology]{.tag} [Agent-based model]{.tag} [Vector-borne disease]{.tag} [PostGIS]{.tag} [Python]{.tag}
 :::
 
 ::: {.repo-item}
 [Epi](https://github.com/minorsecond/Epi){.repo-name}
 
-A configurable SEIR compartmental model for infectious-disease dynamics, with
-user-set parameters, stochastic outcomes, and an option for waning immunity.
+An individual-based stochastic SEIR model: each person moves through
+susceptible–exposed–infectious–removed states with Gaussian-drawn incubation
+and infectious periods, optional waning immunity, and mortality. Computes R₀ and
+a vaccination threshold and writes the epidemic curve to CSV.
 
-[Infectious disease]{.tag} [SEIR]{.tag} [Simulation]{.tag} [Perl]{.tag}
-:::
-
-::: {.repo-item}
-[Chile — Chagas disease risk](https://github.com/minorsecond/Chile){.repo-name}
-
-An early spatial-autocorrelation analysis of Chagas disease risk in Chile —
-Moran's I and spatial weights in R.
-
-[Vector-borne disease]{.tag} [Spatial autocorrelation]{.tag} [R]{.tag}
+[Infectious disease]{.tag} [SEIR]{.tag} [Stochastic simulation]{.tag} [Perl]{.tag}
 :::
 
 ::: {.repo-item}
 [bios5300](https://github.com/minorsecond/bios5300){.repo-name}
 
-A graduate biostatistics project analyzing BRFSS survey data: a reproducible
-R pipeline examining associations between behavioral and socioeconomic factors
-and health outcomes, with logistic regression and a prevalence map.
+A graduate biostatistics study of stroke and behavioral/mental-health factors
+(drinking, smoking, anxiety, depression, sleep) in 2016 BRFSS data, using
+survey-weighted quasi-binomial logistic regression with correct stratification
+and clustering, odds ratios with confidence intervals, and a state-level
+prevalence map. Written up as a reproducible RMarkdown report.
 
-[Biostatistics]{.tag} [Logistic regression]{.tag} [Survey data]{.tag} [R]{.tag}
-:::
-
-::: {.repo-item}
-[Chlorophyl](https://github.com/minorsecond/Chlorophyl){.repo-name}
-
-A desktop tool that derives vegetation layers from LiDAR point clouds — the kind
-of environmental-covariate extraction that feeds spatial models.
-
-[Remote sensing]{.tag} [Environmental data]{.tag} [Python]{.tag}
+[Biostatistics]{.tag} [Complex survey design]{.tag} [Logistic regression]{.tag} [BRFSS]{.tag} [R]{.tag}
 :::
 
 ::: {.repo-item}
 [co_forestfrag_map](https://github.com/minorsecond/co_forestfrag_map){.repo-name}
 
-An interactive web map of forest fragmentation in Colorado.
+An interactive OpenLayers web map of Colorado land cover and forest-fragmentation
+change (2001–2016), with a time slider over WMS raster layers and county- and
+hex-grid aggregations served from a GeoServer backend. Environmental data
+communication rather than a health analysis.
 
-[Web GIS]{.tag} [Environmental data]{.tag} [JavaScript]{.tag}
+[Web GIS]{.tag} [OpenLayers]{.tag} [Environmental data]{.tag} [Raster time series]{.tag}
 :::
 
 :::

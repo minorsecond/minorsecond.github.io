@@ -39,7 +39,8 @@ progress is marked as such.
   Texas counties using SaTScan space-time cluster detection and Kendall's rank
   correlation to test association with deciduous-forest habitat; detected one
   significant space-time cluster in southeastern Texas and found no significant
-  forest-habitat association. Early independent research; not peer-reviewed.
+  forest-habitat association. Early independent research; submitted but not
+  published.
 
 ## Talks & presentations
 
