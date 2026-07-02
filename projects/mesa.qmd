@@ -3,6 +3,10 @@ title: "MESA — Mapping Epidemiology in Sparse Areas"
 subtitle: "A desktop tool for public-health spatial analysis where data is thin"
 ---
 
+::: {.tags .project-tags}
+[Spatial statistics]{.tag} [C++]{.tag} [Desktop software]{.tag} [Geocoding]{.tag} [Public health]{.tag}
+:::
+
 ## Problem
 
 Most spatial-epidemiology tooling assumes you have a lot of data and a GIS

@@ -3,6 +3,10 @@ title: "FEMA Hazus — GIS and risk-modeling software"
 subtitle: "Software development in support of a natural-hazard loss-estimation program"
 ---
 
+::: {.tags .project-tags}
+[GIS]{.tag} [Risk modeling]{.tag} [C#]{.tag} [C++]{.tag} [SQL Server]{.tag} [ArcGIS]{.tag}
+:::
+
 ::: {.callout-note appearance="simple"}
 This page is intentionally high-level. It describes the kind of work and the
 engineering involved, not specifics of any internal system, data, or

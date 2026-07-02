@@ -1,56 +1,50 @@
 ---
 title: "Projects"
+subtitle: "The work I spend the most time on. Each links to a longer write-up."
+toc: false
 ---
 
-A short list of the work I spend the most time on. Each links to a longer page
-with the problem, the approach, and where it stands.
+::: {.project-grid}
 
----
+::: {.project-card}
+[West Nile virus thesis — California mosquito surveillance](projects/wnv-thesis.qmd){.card-title}
 
-### West Nile virus thesis — California mosquito surveillance
+A quantitative MPH thesis modeling WNV infection rate in *Culex* mosquito pools
+against environmental covariates and surveillance effort, with spatial and
+temporal structure handled explicitly on a county-month grid. In progress; no
+results claimed yet.
 
-A quantitative MPH thesis on West Nile virus in California mosquito pools:
-modeling infection rate against environmental covariates and surveillance effort,
-with spatial and temporal structure handled explicitly. Bayesian hierarchical
-spatiotemporal modeling on a county-month analytic grid.
+[Spatial epidemiology]{.tag} [Bayesian modeling]{.tag} [Surveillance data]{.tag} [Public health]{.tag}
+:::
 
-*Spatial epidemiology · Bayesian modeling · surveillance data.* **In progress.**
+::: {.project-card}
+[MESA — Mapping Epidemiology in Sparse Areas](projects/mesa.qmd){.card-title}
 
-[Case study →](projects/wnv-thesis.qmd)
+A C++ desktop application for public-health mapping where data is thin:
+geocoding, Getis-Ord Gi\* and Moran's I, and Monte Carlo permutation testing,
+with the statistics validated against PySAL and R.
 
----
+[Spatial statistics]{.tag} [C++]{.tag} [Desktop software]{.tag} [Public health]{.tag}
+:::
 
-### MESA — Mapping Epidemiology in Sparse Areas
+::: {.project-card}
+[FEMA Hazus — GIS and risk-modeling software](projects/hazus.qmd){.card-title}
 
-A C++ desktop application for public-health mapping where data is thin and
-population is spread out. Geocoding, spatial clustering, and local-statistic
-hot-spot detection (Getis-Ord Gi\*, Moran's I) with Monte Carlo significance
-testing, validated against PySAL and R.
+Software in support of FEMA's Hazus natural-hazard loss-estimation program:
+GIS-driven hazard and risk workflows, spatial data engineering, database
+updates, and validation. Kept high-level and sanitized.
 
-*Spatial statistics · desktop software · tool-building.*
+[GIS]{.tag} [Risk modeling]{.tag} [C#/C++]{.tag} [SQL Server]{.tag}
+:::
 
-[Case study →](projects/mesa.qmd)
+::: {.project-card}
+[SEUHD practicum — applied public-health GIS](projects/seuhd-practicum.qmd){.card-title}
 
----
+Practicum with a local health department: respiratory-illness spatial analysis
+with space-time cubes and emerging hot-spot analysis, plus immunization-
+compliance reporting from EHR data and geocoded addresses.
 
-### FEMA Hazus — GIS and risk-modeling software
+[Applied epidemiology]{.tag} [ArcGIS]{.tag} [Surveillance data]{.tag} [Public health]{.tag}
+:::
 
-Software development in support of FEMA's Hazus natural-hazard loss-estimation
-program: GIS-driven hazard and risk workflows, spatial data engineering, database
-updates, and validation. C#/C++/SQL Server against ArcGIS-based data.
-
-*GIS software engineering · hazard and risk modeling.*
-
-[Case study →](projects/hazus.qmd)
-
----
-
-### SEUHD practicum — applied public-health GIS
-
-Practicum work with a local health department: spatial analysis of respiratory
-illness using space-time cubes and emerging hot-spot analysis, plus
-immunization-compliance reporting built on EHR data and geocoded addresses.
-
-*Applied epidemiology · ArcGIS · surveillance analytics.*
-
-[Case study →](projects/seuhd-practicum.qmd)
+:::

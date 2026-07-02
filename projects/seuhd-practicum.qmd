@@ -3,6 +3,10 @@ title: "Applied public-health GIS — health department practicum"
 subtitle: "Spatial analysis and surveillance analytics for a local health department"
 ---
 
+::: {.tags .project-tags}
+[Applied epidemiology]{.tag} [ArcGIS]{.tag} [Space-time analysis]{.tag} [Surveillance data]{.tag} [Public health]{.tag}
+:::
+
 ::: {.callout-note appearance="simple"}
 Data-sensitive details are omitted. This describes methods and deliverables at a
 level that discloses nothing about individuals or protected data.

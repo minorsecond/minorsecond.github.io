@@ -3,6 +3,10 @@ title: "West Nile virus surveillance in California"
 subtitle: "MPH thesis — spatial and spatiotemporal modeling of mosquito-pool infection"
 ---
 
+::: {.tags .project-tags}
+[Spatial epidemiology]{.tag} [Bayesian modeling]{.tag} [Spatiotemporal]{.tag} [Surveillance data]{.tag} [Public health]{.tag} [R]{.tag}
+:::
+
 ::: {.callout-note appearance="simple"}
 **Status:** in progress. The methods and pipeline are built and tested on
 simulated data; the analysis on real surveillance data is pending data-use and

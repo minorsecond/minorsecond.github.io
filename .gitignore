@@ -11,6 +11,7 @@ Thumbs.db
 *.swp
 .idea/
 .vscode/
+.claude/
 
 # R / Python artifacts, if any sneak in
 .Rproj.user/

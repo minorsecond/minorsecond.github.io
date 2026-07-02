@@ -1,51 +1,70 @@
 ---
 title: "Ross Wardrup"
 subtitle: "Spatial epidemiology · public-health GIS · applied statistical software"
-page-layout: full
 toc: false
 ---
 
-I work at the point where public-health data, geography, and software meet. Most
-of what I do falls into two categories: building the tools and pipelines that
-turn messy surveillance and environmental data into something you can actually
-analyze, and doing the analysis itself — spatial pattern detection, hierarchical
-and spatiotemporal models, and the validation work that keeps the conclusions
-honest.
+::: {.lede}
+I work where public-health data, geography, and software meet — building the
+pipelines that turn messy surveillance and environmental data into something
+analyzable, and doing the spatial-statistics and modeling work on top of it.
+:::
 
-I am an MPH Epidemiology student at the University of Memphis. My thesis is a
-quantitative study of West Nile virus mosquito surveillance in California —
-how environmental conditions, surveillance effort, and space and time relate to
-where the virus shows up in mosquito pools. Alongside the coursework I write
-software for a living: I develop GIS and risk-modeling tools in support of
-FEMA's Hazus program, and I build open tools for spatial epidemiology in
-low-resource settings.
+I'm an MPH Epidemiology student at the University of Memphis, writing a
+quantitative thesis on West Nile virus mosquito surveillance in California. I
+also develop GIS and risk-modeling software in support of FEMA's Hazus program,
+and build open tools for spatial epidemiology in low-resource settings. The
+through-line is methods: getting the spatial statistics right, treating
+surveillance effort and detection bias as part of the problem, and writing
+analyses someone else can reproduce.
 
-The through-line is methods. I care about getting the spatial statistics right,
-about surveillance and detection bias being treated as part of the problem
-rather than ignored, and about analyses that someone else can reproduce.
+## Selected work
 
-## What I'm working on
+::: {.project-grid}
 
-- **A West Nile virus thesis** on California mosquito surveillance — infection
-  rate in mosquito pools as a function of environment, effort, and space-time
-  structure, using Bayesian hierarchical spatiotemporal models.
-  [Read more →](projects/wnv-thesis.qmd)
+::: {.project-card}
+[West Nile virus thesis](projects/wnv-thesis.qmd){.card-title}
 
-- **MESA**, a C++ desktop application for public-health mapping in sparse,
-  rural areas — geocoding and spatial cluster detection with the statistics
-  validated against established libraries.
-  [Read more →](projects/mesa.qmd)
+California mosquito surveillance — modeling infection rate in mosquito pools
+against environment, surveillance effort, and space-time structure.
 
-- **GIS and risk-modeling software** in support of FEMA's Hazus program —
-  hazard and loss workflows, spatial data engineering, and validation.
-  [Read more →](projects/hazus.qmd)
+[Spatial epidemiology]{.tag} [Bayesian modeling]{.tag} [Surveillance data]{.tag}
+:::
 
-- **Applied public-health GIS** with a local health department — respiratory
-  illness hot-spot analysis and immunization-compliance reporting.
-  [Read more →](projects/seuhd-practicum.qmd)
+::: {.project-card}
+[MESA](projects/mesa.qmd){.card-title}
+
+A C++ desktop tool for public-health mapping in sparse, rural areas — geocoding
+and spatial cluster detection, validated against established libraries.
+
+[Spatial statistics]{.tag} [C++]{.tag} [Public health]{.tag}
+:::
+
+::: {.project-card}
+[FEMA Hazus](projects/hazus.qmd){.card-title}
+
+GIS and risk-modeling software in support of FEMA's natural-hazard
+loss-estimation program: hazard workflows, data engineering, and validation.
+
+[GIS]{.tag} [Risk modeling]{.tag} [C#/C++]{.tag}
+:::
+
+::: {.project-card}
+[SEUHD practicum](projects/seuhd-practicum.qmd){.card-title}
+
+Applied public-health GIS with a health department — respiratory-illness
+hot-spot analysis and immunization-compliance reporting.
+
+[Applied epidemiology]{.tag} [ArcGIS]{.tag} [Surveillance data]{.tag}
+:::
+
+:::
 
 ## Elsewhere
 
-- Code: [github.com/minorsecond](https://github.com/minorsecond)
-- Email: [minorsecond@gmail.com](mailto:minorsecond@gmail.com)
-- [Curriculum vitae](cv.qmd)
+::: {.contact-strip}
+**Ross Wardrup** &nbsp;·&nbsp;
+[minorsecond@gmail.com](mailto:minorsecond@gmail.com) &nbsp;·&nbsp;
+[github.com/minorsecond](https://github.com/minorsecond) &nbsp;·&nbsp;
+[Curriculum vitae](cv.qmd)
+:::

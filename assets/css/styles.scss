@@ -1,66 +1,109 @@
 /* Ross Wardrup — minimal academic/technical theme.
-   Restrained typography, generous line spacing, muted palette. */
+   Mostly black on off-white, one muted accent, plenty of whitespace,
+   monospace used for metadata to read technical rather than glossy. */
+
+/*-- scss:defaults --*/
+
+// Palette — intentional grayscale + a single muted teal-slate accent.
+$rw-ink:        #171717;   // primary text
+$rw-muted:      #5c626b;   // secondary text
+$rw-faint:      #8a9099;   // tertiary / labels
+$rw-accent:     #2f5d62;   // links, rules — restrained teal-slate
+$rw-accent-dk:  #21464a;
+$rw-rule:       #e4e6e6;   // hairlines
+$rw-bg:         #fbfbfa;   // page background, a hair off pure white
+$rw-bg-soft:    #f4f5f4;   // code / callout fill
+
+// Type
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter",
+  Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-monospace: "SF Mono", ui-monospace, "SFMono-Regular", "JetBrains Mono",
+  Menlo, Consolas, monospace !default;
+$font-size-root: 17px;
+$headings-font-weight: 640;
+$headings-line-height: 1.22;
+
+// Bootstrap hooks
+$body-color:       $rw-ink;
+$body-bg:          $rw-bg;
+$primary:          $rw-accent;
+$link-color:       $rw-accent;
+$link-hover-color: $rw-accent-dk;
+$border-color:     $rw-rule;
 
 /*-- scss:rules --*/
 
 :root {
-  --rw-ink:        #1a1a1a;   /* body text */
-  --rw-muted:      #5a5f66;   /* secondary text */
-  --rw-accent:     #2f5d62;   /* links, restrained teal-slate */
-  --rw-accent-dk:  #234246;
-  --rw-rule:       #e6e6e6;   /* hairlines */
-  --rw-bg-soft:    #f7f8f8;   /* subtle callout / code bg */
+  --rw-ink: #{$rw-ink};
+  --rw-muted: #{$rw-muted};
+  --rw-faint: #{$rw-faint};
+  --rw-accent: #{$rw-accent};
+  --rw-accent-dk: #{$rw-accent-dk};
+  --rw-rule: #{$rw-rule};
+  --rw-bg: #{$rw-bg};
+  --rw-bg-soft: #{$rw-bg-soft};
 }
-
-/* ---- Base ------------------------------------------------------------- */
 
 body {
-  color: var(--rw-ink);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0.003em;
 }
 
-/* Headings: tighter, less shouty than the theme default */
-h1, h2, h3, h4 {
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  line-height: 1.25;
+/* ---- Headings & type scale ------------------------------------------- */
+
+h1, h2, h3, h4, h5 {
+  letter-spacing: -0.014em;
+  color: var(--rw-ink);
 }
 
 h1.title {
-  font-weight: 650;
-  margin-bottom: 0.15rem;
+  font-size: 2.15rem;
+  font-weight: 680;
+  margin-bottom: 0.2rem;
 }
 
 .subtitle, p.subtitle {
   color: var(--rw-muted);
   font-weight: 400;
-  font-size: 1.1rem;
-  margin-top: 0;
+  font-size: 1.12rem;
+  line-height: 1.4;
+  margin-top: 0.1rem;
 }
 
-/* Section headers get a quiet hairline for structure */
-h2 {
-  margin-top: 2.4rem;
-  padding-bottom: 0.3rem;
+/* The title block gets a hairline under it for a quiet masthead feel. */
+header#title-block-header {
+  padding-bottom: 1.1rem;
+  margin-bottom: 1.6rem;
   border-bottom: 1px solid var(--rw-rule);
 }
 
-h3 {
-  margin-top: 1.8rem;
+h2 {
+  font-size: 1.34rem;
+  margin-top: 2.6rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--rw-rule);
+}
+
+h3 { font-size: 1.12rem; margin-top: 1.9rem; }
+
+p, li { line-height: 1.68; }
+main li { margin-bottom: 0.35rem; }
+
+main hr {
+  border: 0;
+  border-top: 1px solid var(--rw-rule);
+  margin: 2.2rem 0;
 }
 
 /* ---- Links ------------------------------------------------------------ */
 
-a {
-  color: var(--rw-accent);
+main a {
   text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.15s ease, color 0.15s ease;
+  border-bottom: 1px solid rgba(47, 93, 98, 0.28);
+  transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
 }
-
-a:hover {
+main a:hover {
   color: var(--rw-accent-dk);
   border-bottom-color: var(--rw-accent-dk);
 }
@@ -70,71 +113,169 @@ a:hover {
 .navbar {
   border-bottom: 1px solid var(--rw-rule);
   box-shadow: none;
+  background-color: var(--rw-bg) !important;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
 }
-
 .navbar-brand {
-  font-weight: 650;
-  letter-spacing: -0.01em;
+  font-weight: 680;
+  letter-spacing: -0.02em;
+  font-size: 1.02rem;
 }
-
-.navbar .nav-link {
+.navbar .navbar-nav .nav-link {
   color: var(--rw-muted) !important;
+  font-size: 0.95rem;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
 }
-
-.navbar .nav-link:hover,
-.navbar .nav-link.active {
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
   color: var(--rw-ink) !important;
 }
 
-/* ---- Content width & rhythm ------------------------------------------ */
+/* ---- Lede / homepage intro ------------------------------------------- */
 
-main {
-  padding-top: 0.5rem;
-}
-
-p, li {
+.lede {
+  font-size: 1.28rem;
+  line-height: 1.5;
   color: var(--rw-ink);
+  margin: 0.4rem 0 1.4rem;
+  max-width: 40em;
+}
+.lede p { line-height: 1.5; }
+
+/* ---- Eyebrow / kicker labels ----------------------------------------- */
+
+.kicker {
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--rw-faint);
+  margin-bottom: 0.4rem;
 }
 
-/* Lists a touch roomier */
-main li {
-  margin-bottom: 0.3rem;
+/* ---- Metadata tags ---------------------------------------------------- */
+
+.tags { margin: 0.3rem 0 0.2rem; line-height: 2.1; }
+
+.tag {
+  display: inline-block;
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: var(--rw-muted);
+  background: var(--rw-bg-soft);
+  border: 1px solid var(--rw-rule);
+  border-radius: 3px;
+  padding: 0.12rem 0.5rem;
+  margin-right: 0.3rem;
+  white-space: nowrap;
 }
+/* tags carry no link styling even when adjacent to links */
+.tag { border-bottom: 1px solid var(--rw-rule) !important; }
+
+/* Tag row shown at the top of a project case-study page */
+header#title-block-header + .tags,
+.project-tags { margin-bottom: 1.7rem; }
+
+/* ---- Project cards ---------------------------------------------------- */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 1.4rem 0 0.6rem;
+}
+
+.project-card {
+  border: 1px solid var(--rw-rule);
+  border-radius: 6px;
+  padding: 1.15rem 1.25rem 1.05rem;
+  background: #fff;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+  display: flex;
+  flex-direction: column;
+}
+.project-card:hover {
+  border-color: #cdd3d2;
+  box-shadow: 0 1px 2px rgba(23, 23, 23, 0.04), 0 6px 18px rgba(23, 23, 23, 0.05);
+  transform: translateY(-1px);
+}
+
+/* First link in a card is the title */
+.project-card .card-title {
+  display: block;
+  font-weight: 640;
+  font-size: 1.06rem;
+  letter-spacing: -0.01em;
+  color: var(--rw-ink);
+  border-bottom: none;
+  margin-bottom: 0.35rem;
+  line-height: 1.3;
+}
+.project-card .card-title:hover { color: var(--rw-accent-dk); }
+
+.project-card p {
+  margin: 0 0 0.7rem;
+  color: var(--rw-muted);
+  font-size: 0.96rem;
+  line-height: 1.55;
+}
+.project-card p:has(.tag) { margin-top: auto; margin-bottom: 0; }
+.project-card .tag { margin-bottom: 0.25rem; }
+
+/* Small "→" affordance appended to the card title */
+.project-card .card-title::after {
+  content: " \2192";
+  color: var(--rw-faint);
+  font-weight: 400;
+}
+
+/* ---- CV / contact strip ---------------------------------------------- */
+
+.contact-strip {
+  border: 1px solid var(--rw-rule);
+  border-radius: 6px;
+  background: var(--rw-bg-soft);
+  padding: 1rem 1.2rem;
+  margin: 1.6rem 0 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 1.4rem;
+  font-size: 0.96rem;
+}
+.contact-strip strong { color: var(--rw-ink); }
+.contact-strip a { border-bottom-color: rgba(47, 93, 98, 0.28); }
 
 /* ---- Callouts / code -------------------------------------------------- */
 
-div.callout {
-  border-radius: 4px;
-}
-
-.callout.callout-style-simple {
-  border-left-width: 3px;
-}
+div.callout { border-radius: 5px; }
+.callout.callout-style-simple { border-left-width: 3px; }
 
 code {
   background: var(--rw-bg-soft);
-  padding: 0.1em 0.35em;
+  padding: 0.1em 0.34em;
   border-radius: 3px;
-  font-size: 0.9em;
+  font-size: 0.88em;
 }
-
-pre {
-  border: 1px solid var(--rw-rule);
-  border-radius: 4px;
-}
+pre { border: 1px solid var(--rw-rule); border-radius: 5px; background: var(--rw-bg-soft); }
 
 /* ---- TOC -------------------------------------------------------------- */
 
 #toc-title {
   text-transform: uppercase;
-  font-size: 0.75rem;
-  letter-spacing: 0.06em;
-  color: var(--rw-muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.09em;
+  color: var(--rw-faint);
+  font-weight: 600;
 }
-
+.sidebar nav[role="doc-toc"] > ul li a { font-size: 0.86rem; }
 .sidebar nav[role="doc-toc"] ul > li > a.active {
   color: var(--rw-accent);
   border-left-color: var(--rw-accent);
+  font-weight: 500;
 }
 
 /* ---- Footer ----------------------------------------------------------- */
@@ -142,13 +283,18 @@ pre {
 .nav-footer {
   border-top: 1px solid var(--rw-rule);
   color: var(--rw-muted);
-  font-size: 0.9rem;
+  font-size: 0.88rem;
+  background-color: var(--rw-bg);
 }
+.nav-footer a { color: var(--rw-muted); }
 
-/* ---- Horizontal rules used as section separators --------------------- */
+/* ---- Mobile ----------------------------------------------------------- */
 
-main hr {
-  border: 0;
-  border-top: 1px solid var(--rw-rule);
-  margin: 2rem 0;
+@media (max-width: 575.98px) {
+  h1.title { font-size: 1.8rem; }
+  .lede { font-size: 1.15rem; }
+  h2 { margin-top: 2rem; }
+  .project-grid { grid-template-columns: 1fr; gap: 0.85rem; }
+  .contact-strip { gap: 0.35rem 1rem; }
+  body { letter-spacing: 0; }
 }
