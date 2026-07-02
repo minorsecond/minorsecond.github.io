@@ -34,20 +34,6 @@ Before this I was a GIS analyst in healthcare at DaVita Kidney Care, and during
 the pandemic I built COVID-19 surveillance databases, ETL pipelines, and public
 dashboards for a Colorado health department.
 
-## How I work
-
-A few things I keep coming back to:
-
-- Surveillance data has a process behind it. Where and how hard people looked
-  shapes what shows up, so detection and effort belong in the model rather than a
-  footnote.
-- New code gets checked against something that already works. New spatial
-  routines get compared to PySAL or R packages, and new models get run on
-  simulated data with a known answer before they touch anything real.
-- I'd rather write a reproducible pipeline than a one-off script, and I keep
-  environments someone else can actually rebuild.
-- I'd sooner write down a limitation than round a result up.
-
 ## Interests
 
 My interests run across spatial and computational epidemiology, environmental

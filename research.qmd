@@ -15,14 +15,14 @@ county and year to the next, and outcomes recorded at whatever resolution the
 reporting allows. I work on getting honest, well-calibrated estimates out of
 data like that.
 
-## How I approach it
+## How the data shapes the method
 
-Two commitments run through the work. The first is taking the data-generating
-process seriously: where and how hard someone looked shapes what turns up, so
-surveillance effort and detection belong inside the model, not in a limitations
-paragraph. The second is validating a method before trusting it. New spatial
-estimators get checked against reference implementations, and new models get run
-on simulated data with a known answer before they touch a real outcome. I work
+Two problems shape the method. The first is the data-generating process: where
+and how hard someone looked shapes what turns up, so surveillance effort and
+detection belong inside the model rather than a limitations paragraph. The second
+is trust: a method has to earn it before I rely on it, so new spatial estimators
+get checked against reference implementations, and new models get run on
+simulated data with a known answer before they touch a real outcome. I work
 mostly in Bayesian hierarchical and spatiotemporal models (CAR/BYM2 spatial
 structures, distributed-lag climate terms, spatial-confounding adjustments),
 because they let me borrow strength across space and time while staying explicit
