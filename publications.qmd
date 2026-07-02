@@ -5,20 +5,30 @@ title: "Publications & research"
 Peer-reviewed articles, preprints, the thesis, and earlier work. In-progress
 items are noted.
 
+ORCID: [0009-0005-8235-6047](https://orcid.org/0009-0005-8235-6047)
+
 ## Peer-reviewed
 
-- **The Impact of COVID-19 on Globalization.** *One Health* 11:100180 (2020).
+- Shrestha N, Shad MY, Ulvi O, Khan MH, Karamehic-Muratovic A, Nguyen U-SDT,
+  Baghbanzadeh M, **Wardrup R**, Aghamohammadi N, Cervantes D, Nahiduzzaman KM,
+  Zaki RA, Haque U. **The impact of COVID-19 on globalization.**
+  *One Health* 11:100180 (2020).
   [doi:10.1016/j.onehlt.2020.100180](https://doi.org/10.1016/j.onehlt.2020.100180).
-  Contributed quantitative analysis of the relationships between pandemic spread,
-  mobility patterns, and global economic disruption.
+  Contributed quantitative analysis of pandemic spread, mobility, and economic
+  disruption.
 
 ## Preprints
 
-- **Spatial Patterns of COVID-19 Mortality: Examining Socioeconomic Determinants
-  in U.S. Counties Using Cluster Analysis.** Wardrup R. medRxiv (2024).
-  Sole-author study using cluster analysis to identify spatial patterns in
-  U.S. county-level COVID-19 mortality and the socioeconomic determinants
-  associated with them.
+- **Wardrup RR.** Spatial patterns of COVID-19 mortality: examining
+  socioeconomic determinants in U.S. counties using cluster analysis. medRxiv
+  (2024).
+  [doi:10.1101/2024.10.30.24316443](https://www.medrxiv.org/content/10.1101/2024.10.30.24316443v1).
+  Sole-authored spatial-epidemiology study across 3,000+ U.S. counties: SaTScan
+  cluster detection to locate significant mortality trends, and spatial lag and
+  spatial error regression to test socioeconomic determinants (race, income
+  inequality, uninsured rate) while accounting for spatial autocorrelation and
+  multicollinearity. The spatial lag model fit best, pointing to strong spatial
+  dependence in the mortality patterns.
 
 ## Thesis
 

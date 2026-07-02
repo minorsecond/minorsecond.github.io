@@ -58,4 +58,5 @@ methodological headaches that come up when surveillance data is sparse or uneven
 - Email: [ross@rwardrup.com](mailto:ross@rwardrup.com)
 - GitHub: [github.com/minorsecond](https://github.com/minorsecond)
 - LinkedIn: [linkedin.com/in/robert-wardrup](https://www.linkedin.com/in/robert-wardrup/)
+- ORCID: [0009-0005-8235-6047](https://orcid.org/0009-0005-8235-6047)
 - [Curriculum vitae](cv.qmd)

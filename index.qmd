@@ -69,5 +69,6 @@ hot-spot analysis and immunization-compliance reporting.
 [ross@rwardrup.com](mailto:ross@rwardrup.com) &nbsp;·&nbsp;
 [github.com/minorsecond](https://github.com/minorsecond) &nbsp;·&nbsp;
 [LinkedIn](https://www.linkedin.com/in/robert-wardrup/) &nbsp;·&nbsp;
+[ORCID](https://orcid.org/0009-0005-8235-6047) &nbsp;·&nbsp;
 [Curriculum vitae](cv.qmd)
 :::

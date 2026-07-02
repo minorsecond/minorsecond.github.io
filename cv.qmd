@@ -9,7 +9,8 @@ subtitle: "Robert (Ross) Wardrup · Centennial, CO"
 
 [ross@rwardrup.com](mailto:ross@rwardrup.com) ·
 [github.com/minorsecond](https://github.com/minorsecond) ·
-[linkedin.com/in/robert-wardrup](https://www.linkedin.com/in/robert-wardrup/)
+[linkedin.com/in/robert-wardrup](https://www.linkedin.com/in/robert-wardrup/) ·
+[ORCID 0009-0005-8235-6047](https://orcid.org/0009-0005-8235-6047)
 
 I'm an MPH Epidemiology candidate with a background in medical geography and more
 than ten years building and analyzing large health and geospatial datasets. My
@@ -121,8 +122,9 @@ socioeconomic indicators.
 **Epidemiology & research.** Descriptive epidemiology; retrospective cohort
 studies; surveillance analysis; health-disparities research; longitudinal data
 analysis; regression modeling; Bayesian hierarchical modeling; simulation
-studies and model calibration; spatial epidemiology; data validation;
-reproducible research.
+studies and model calibration; spatial epidemiology (cluster detection with
+SaTScan, Getis-Ord Gi\*, and Moran's I; spatial lag and error regression); data
+validation; reproducible research.
 
 **Programming & data.** SQL (PostgreSQL/PostGIS, T-SQL); R (tidyverse, ggplot2,
 R-INLA); SAS; Python (pandas, NumPy, ArcPy); Git; ETL workflows; database
