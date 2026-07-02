@@ -1,11 +1,13 @@
 ---
 title: "Publications & research"
+description: "Publications and preprints by Ross Wardrup in spatial epidemiology, including COVID-19 mortality cluster analysis and a West Nile virus thesis."
 ---
 
 Peer-reviewed articles, preprints, the thesis, and earlier work. In-progress
 items are noted.
 
-ORCID: [0009-0005-8235-6047](https://orcid.org/0009-0005-8235-6047)
+ORCID: [0009-0005-8235-6047](https://orcid.org/0009-0005-8235-6047) ·
+Google Scholar: [profile](https://scholar.google.com/citations?user=NAcxI4IAAAAJ)
 
 ## Peer-reviewed
 

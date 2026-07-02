@@ -1,6 +1,7 @@
 ---
 title: "Ross Wardrup"
-subtitle: "Spatial epidemiology · public-health GIS · applied statistical software"
+subtitle: "Spatial & computational epidemiology · vector-borne disease · Bayesian spatiotemporal modeling"
+description: "Ross Wardrup — researcher in spatial and computational epidemiology: infectious and vector-borne disease surveillance, environmental drivers, and Bayesian spatiotemporal modeling."
 toc: false
 ---
 
@@ -70,5 +71,6 @@ hot-spot analysis and immunization-compliance reporting.
 [github.com/minorsecond](https://github.com/minorsecond) &nbsp;·&nbsp;
 [LinkedIn](https://www.linkedin.com/in/robert-wardrup/) &nbsp;·&nbsp;
 [ORCID](https://orcid.org/0009-0005-8235-6047) &nbsp;·&nbsp;
+[Google Scholar](https://scholar.google.com/citations?user=NAcxI4IAAAAJ) &nbsp;·&nbsp;
 [Curriculum vitae](cv.qmd)
 :::

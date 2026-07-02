@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "Ross Wardrup is a researcher in spatial and computational epidemiology, working on infectious and vector-borne disease surveillance and Bayesian spatiotemporal methods."
 ---
 
 I work in spatial and computational epidemiology, focused on infectious and
@@ -60,4 +61,5 @@ methodological headaches that come up when surveillance data is sparse or uneven
 - GitHub: [github.com/minorsecond](https://github.com/minorsecond)
 - LinkedIn: [linkedin.com/in/robert-wardrup](https://www.linkedin.com/in/robert-wardrup/)
 - ORCID: [0009-0005-8235-6047](https://orcid.org/0009-0005-8235-6047)
+- Google Scholar: [scholar.google.com](https://scholar.google.com/citations?user=NAcxI4IAAAAJ)
 - [Curriculum vitae](cv.qmd)

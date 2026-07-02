@@ -1,6 +1,7 @@
 ---
 title: "Curriculum vitae"
 subtitle: "Robert (Ross) Wardrup · Centennial, CO"
+description: "Curriculum vitae for Ross Wardrup — spatial and computational epidemiology, public-health GIS, and applied statistical software."
 ---
 
 ::: {.tags .project-tags}
@@ -10,7 +11,8 @@ subtitle: "Robert (Ross) Wardrup · Centennial, CO"
 [ross@rwardrup.com](mailto:ross@rwardrup.com) ·
 [github.com/minorsecond](https://github.com/minorsecond) ·
 [linkedin.com/in/robert-wardrup](https://www.linkedin.com/in/robert-wardrup/) ·
-[ORCID 0009-0005-8235-6047](https://orcid.org/0009-0005-8235-6047)
+[ORCID 0009-0005-8235-6047](https://orcid.org/0009-0005-8235-6047) ·
+[Google Scholar](https://scholar.google.com/citations?user=NAcxI4IAAAAJ)
 
 I'm a researcher in spatial and computational epidemiology and an MPH
 Epidemiology candidate, with a background in medical geography and more than a

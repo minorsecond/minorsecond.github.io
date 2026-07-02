@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 subtitle: "The work I spend the most time on. Each links to a longer write-up."
+description: "Spatial-epidemiology and public-health projects: a West Nile virus thesis, the MESA spatial-analysis tool, FEMA Hazus risk software, and applied health-department GIS."
 toc: false
 ---
 

@@ -6,7 +6,7 @@ project:
 
 website:
   title: "Ross Wardrup"
-  description: "Spatial epidemiology, public-health GIS, and applied statistical software."
+  description: "Ross Wardrup — research in spatial and computational epidemiology: infectious and vector-borne disease surveillance, environmental drivers, and Bayesian spatiotemporal modeling."
   site-url: "https://rwardrup.com"
   reader-mode: false
   page-navigation: true
@@ -17,6 +17,8 @@ website:
     left:
       - text: "Home"
         href: index.qmd
+      - text: "Research"
+        href: research.qmd
       - text: "Projects"
         href: projects.qmd
       - text: "Publications"
@@ -26,6 +28,9 @@ website:
       - text: "CV"
         href: cv.qmd
     right:
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=NAcxI4IAAAAJ
+        aria-label: Google Scholar
       - icon: github
         href: https://github.com/minorsecond
         aria-label: GitHub
@@ -36,6 +41,9 @@ website:
   page-footer:
     left: "© 2026 Ross Wardrup"
     right:
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=NAcxI4IAAAAJ
+        aria-label: Google Scholar
       - icon: github
         href: https://github.com/minorsecond
         aria-label: GitHub
@@ -63,6 +71,9 @@ format:
     linestretch: 1.6
     highlight-style: github
     code-copy: true
+    open-graph: true
+    twitter-card: true
+    include-in-header: assets/head-extra.html
 
 execute:
   freeze: auto
