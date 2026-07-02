@@ -76,6 +76,11 @@ The work moves in stages:
 - **Stack.** R for the analysis and modeling, and a SQL-backed ETL pipeline for
   the data warehouse. Version-controlled and reproducible throughout.
 
+<figure class="fig">
+<img src="../assets/img/wnv-neighbor-graph.png" alt="Queen-contiguity spatial neighbor graph over the 89 study counties, with cross-border links from the neighbor-state buffer highlighted in teal">
+<figcaption>The queen-contiguity neighbor graph over the 89 study counties: the spatial weight matrix behind Moran's I, LISA, and the BYM2 model. Teal links cross the California border, where the neighbor-state buffer corrects edge effects.</figcaption>
+</figure>
+
 ## Status
 
 The pipeline and modeling framework are built and stress-tested on simulated
