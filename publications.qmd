@@ -48,3 +48,8 @@ Google Scholar: [profile](https://scholar.google.com/citations?user=NAcxI4IAAAAJ
   significant space-time cluster in southeastern Texas and found no significant
   forest-habitat association. Early independent research; submitted but not
   published.
+
+<figure class="fig">
+<img src="assets/img/lyme-cluster.png" alt="Map of Texas counties showing the detected Lyme disease space-time cluster in the southeast of the state">
+<figcaption>Detected Lyme disease space–time cluster (blue), southeastern Texas, 2000–2014, from the SaTScan analysis in the manuscript above.</figcaption>
+</figure>
