@@ -12,10 +12,6 @@ items are noted.
   Contributed quantitative analysis of the relationships between pandemic spread,
   mobility patterns, and global economic disruption.
 
-<!-- Template, copy per entry:
-- Author(s). **Title.** *Journal* vol:pages (year). [doi:…](https://doi.org/…)
--->
-
 ## Preprints
 
 - **Spatial Patterns of COVID-19 Mortality: Examining Socioeconomic Determinants
@@ -23,7 +19,6 @@ items are noted.
   Sole-author study using cluster analysis to identify spatial patterns in
   U.S. county-level COVID-19 mortality and the socioeconomic determinants
   associated with them.
-  <!-- Add the medRxiv DOI/URL here once available. -->
 
 ## Thesis
 
@@ -41,26 +36,3 @@ items are noted.
   significant space-time cluster in southeastern Texas and found no significant
   forest-habitat association. Early independent research; submitted but not
   published.
-
-## Talks & presentations
-
-*None yet listed.*
-
-<!--
-- **Title.** Event, location, month year. [Slides](…)
--->
-
-## Posters
-
-*None yet listed.*
-
-<!--
-- Author(s). **Title.** Conference, year. [Poster (PDF)](…)
--->
-
----
-
-::: {.callout-note appearance="simple"}
-Author lists, DOIs, and slide/poster links get filled in as they become
-available.
-:::

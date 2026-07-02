@@ -7,12 +7,6 @@ subtitle: "Robert (Ross) Wardrup · Centennial, CO"
 [Spatial epidemiology]{.tag} [Bayesian modeling]{.tag} [Public-health GIS]{.tag} [Surveillance data]{.tag} [SQL / R / Python]{.tag}
 :::
 
-::: {.callout-tip appearance="simple"}
-A one-to-two-page PDF version is available here:
-[Download CV (PDF)](assets/cv/ross-wardrup-cv.pdf). Drop the compiled file at
-`assets/cv/ross-wardrup-cv.pdf` to enable the link.
-:::
-
 [ross@rwardrup.com](mailto:ross@rwardrup.com) ·
 [github.com/minorsecond](https://github.com/minorsecond) ·
 [linkedin.com/in/robert-wardrup](https://www.linkedin.com/in/robert-wardrup/)

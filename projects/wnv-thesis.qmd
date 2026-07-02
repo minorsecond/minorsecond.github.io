@@ -97,6 +97,3 @@ design, not the findings.
 - Applied Bayesian hierarchical and spatiotemporal modeling, with spatial
   confounding handled explicitly.
 - Validating a modeling approach on simulated data before committing to it.
-
-*Links to the thesis document, methods write-ups, and any preprint will be added
-here as they become available.*

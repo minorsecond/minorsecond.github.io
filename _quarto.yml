@@ -8,7 +8,6 @@ website:
   title: "Ross Wardrup"
   description: "Spatial epidemiology, public-health GIS, and applied statistical software."
   site-url: "https://rwardrup.com"
-  favicon: assets/img/favicon.png
   reader-mode: false
   page-navigation: true
 
