@@ -17,9 +17,9 @@ software work. I'm now finishing an MPH in Epidemiology at the University of
 Memphis, where my thesis studies West Nile virus mosquito surveillance across
 California. I also develop GIS and risk-modeling software for FEMA's Hazus
 program, and I write open-source tools for spatial epidemiology in low-resource
-settings. What I care about most is method: whether the spatial statistics are
-done right, whether the analysis accounts for how the data was actually
-collected, and whether someone else could reproduce it.
+settings. Throughout, I emphasize methodological rigor: spatial statistics done right,
+analyses that account for how the data was actually collected, and results others
+can reproduce.
 
 ## Selected work
 

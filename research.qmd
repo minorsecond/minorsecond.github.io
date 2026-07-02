@@ -5,7 +5,7 @@ toc: false
 ---
 
 ::: {.lede}
-My research is about reading disease risk off of imperfect surveillance data.
+I work on estimating disease risk from imperfect surveillance data.
 :::
 
 Most of what we know about where and when infectious and vector-borne disease is
@@ -15,17 +15,14 @@ county and year to the next, and outcomes recorded at whatever resolution the
 reporting allows. I work on getting honest, well-calibrated estimates out of
 data like that.
 
-## Approach
-
-Surveillance data is collected to detect disease, not to support inference: where
-and how hard people look affects what turns up. I model surveillance effort and
-detection directly rather than noting them as limitations. I validate methods
-before using them. Spatial estimators are checked against PySAL and R
-implementations, and new models are tested on simulated data with known
-parameters before they are applied to real outcomes. Most analyses use Bayesian
-hierarchical and spatiotemporal models (CAR/BYM2 spatial structures,
-distributed-lag climate terms, spatial-confounding adjustments), which share
-information across space and time and quantify uncertainty.
+That means putting surveillance effort and detection into the model rather than
+noting them as limitations, and validating a method before I use it: spatial
+estimators get checked against PySAL and R implementations, and new models are
+tested on simulated data with known parameters before they are applied to real
+outcomes. Most of the analysis uses Bayesian hierarchical and spatiotemporal
+models (CAR/BYM2 spatial structures, distributed-lag climate terms,
+spatial-confounding adjustments), which share information across space and time
+and quantify uncertainty.
 
 ## Current work
 
@@ -38,14 +35,14 @@ leaving out seasonal and month-to-month structure badly under-covers the
 intervals, something point estimates alone would hide.
 [More on the thesis.](projects/wnv-thesis.qmd)
 
-Earlier work runs along the same line. A sole-authored spatial analysis of
+Earlier projects come at the same problem: finding real spatial signal in
+observational health data. They include a sole-authored spatial analysis of
 COVID-19 mortality and its socioeconomic determinants across 3,000-plus U.S.
 counties (SaTScan clustering with spatial lag and error regression), and cluster
-analyses of Lyme disease and Chagas risk, all come back to the same question of
-how to find real spatial signal in observational health data.
+analyses of Lyme disease and Chagas risk.
 [Publications.](publications.qmd)
 
-## Where I want to take it
+## Research directions
 
 I want to do doctoral research in spatial and computational epidemiology:
 methods and pipelines that make surveillance data usable for inference, with an
