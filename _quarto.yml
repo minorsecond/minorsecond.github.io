@@ -74,6 +74,7 @@ format:
     open-graph: true
     twitter-card: true
     include-in-header: assets/head-extra.html
+    include-after-body: assets/lightbox.html
 
 execute:
   freeze: auto

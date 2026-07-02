@@ -162,6 +162,30 @@ main a:hover {
   line-height: 1.45;
 }
 .fig.fig-sm { max-width: 470px; }
+.fig img { cursor: zoom-in; }
+
+/* ---- Figure lightbox overlay ----------------------------------------- */
+
+.lb-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4vmin;
+  background: rgba(18, 18, 18, 0.9);
+  cursor: zoom-out;
+  opacity: 0;
+  transition: opacity 0.16s ease;
+}
+.lb-overlay.lb-on { opacity: 1; }
+.lb-overlay img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 6px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5);
+}
 
 /* ---- Publications list ----------------------------------------------- */
 

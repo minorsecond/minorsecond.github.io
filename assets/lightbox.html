@@ -1,0 +1,38 @@
+<script>
+// Minimal figure lightbox: click a figure to enlarge it in a dismissable
+// overlay (click anywhere or press Escape to close). Applies only to `.fig`
+// images, so it never touches navigation.
+(function () {
+  function openLightbox(src, alt) {
+    var overlay = document.createElement("div");
+    overlay.className = "lb-overlay";
+    overlay.setAttribute("role", "dialog");
+    overlay.setAttribute("aria-label", alt || "Enlarged figure");
+    var img = document.createElement("img");
+    img.src = src;
+    img.alt = alt || "";
+    overlay.appendChild(img);
+    document.body.appendChild(overlay);
+    document.body.style.overflow = "hidden";
+    requestAnimationFrame(function () { overlay.classList.add("lb-on"); });
+
+    function close() {
+      overlay.classList.remove("lb-on");
+      document.body.style.overflow = "";
+      document.removeEventListener("keydown", onKey);
+      setTimeout(function () { overlay.remove(); }, 160);
+    }
+    function onKey(e) { if (e.key === "Escape") close(); }
+    overlay.addEventListener("click", close);
+    document.addEventListener("keydown", onKey);
+  }
+
+  document.addEventListener("click", function (e) {
+    var img = e.target.closest ? e.target.closest(".fig img") : null;
+    if (img) {
+      e.preventDefault();
+      openLightbox(img.currentSrc || img.src, img.alt);
+    }
+  });
+})();
+</script>
