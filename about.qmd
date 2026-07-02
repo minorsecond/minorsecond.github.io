@@ -3,6 +3,8 @@ title: "About"
 description: "Ross Wardrup is a researcher in spatial and computational epidemiology, working on infectious and vector-borne disease surveillance and Bayesian spatiotemporal methods."
 ---
 
+<img src="assets/img/headshot.jpg" alt="Ross Wardrup" class="headshot">
+
 I work in spatial and computational epidemiology, focused on infectious and
 vector-borne disease surveillance: the environmental drivers behind it, the
 spatial and temporal structure in the data, and the methods needed to model it
